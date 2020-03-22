@@ -61,8 +61,13 @@ alias만 입력하면 별칭으로 등록된 명령어들의 목록 나타냄
 사용방법 : alias [별칭]="명령어"     
 ![alias](https://user-images.githubusercontent.com/62292136/77248387-65547600-6c7c-11ea-9ce9-38201c220002.PNG)     
 ![alias2](https://user-images.githubusercontent.com/62292136/77248389-684f6680-6c7c-11ea-8eff-f4478dc6acea.PNG)     
-
-
+     
+     
+     
+## 9. unalias     
+alias로 등록된 별칭 삭제          
+사용방법 : unalias [별칭]          
+![unalias](https://user-images.githubusercontent.com/62292136/77249658-0e539e80-6c86-11ea-8506-aefd1c30f18f.PNG)     
 
 
 
