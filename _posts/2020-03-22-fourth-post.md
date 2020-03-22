@@ -36,7 +36,7 @@ mv file1 file2        -----> file1을 file2로 이름 변경
 mv file dir           -----> file을 dir로 이동 (dir 경로 표시 필요)       
 mv file1 file2 dir    -----> file1과 file2를 dir로 이동 (dir 경로 표시 필요)        
 mv dir1 dir2          -----> dir1을 dir2로 이름 변경     
-![mv1](https://user-images.githubusercontent.com/62292136/77247854-5c61a580-6c78-11ea-9c8a-998705b2474d.PNG)     
+![mv1](https://user-images.githubusercontent.com/62292136/77248153-98960580-6c7a-11ea-96a4-dc1337bae113.PNG)     
 ![mv2](https://user-images.githubusercontent.com/62292136/77247856-64b9e080-6c78-11ea-90f8-55de2d4ea80a.PNG)     
      
      
