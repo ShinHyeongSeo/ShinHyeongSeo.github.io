@@ -25,3 +25,13 @@ categories: Linux OSS
 뒤에 -l을 붙이면 소유자 파일크기, 사용자 권한을 표시     
 사용방법 : ls [디렉토리명 혹은 파일명]         
 ![ls](https://user-images.githubusercontent.com/62292136/77247467-db54df00-6c74-11ea-88c8-b538cd9c8b32.PNG)     
+     
+     
+     
+## 4. tree     
+디렉토리 하위에 속해있는 디렉토리 및 파일을 tree형식으로 출력해줌     
+사용방법 : tree     
+![tree](https://user-images.githubusercontent.com/62292136/77250228-dd756880-6c89-11ea-9604-6c7fadf332be.PNG)     
+     
+     
+
