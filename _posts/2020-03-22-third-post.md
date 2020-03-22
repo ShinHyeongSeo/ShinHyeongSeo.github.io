@@ -1,7 +1,7 @@
 ---
 title: "Linux 주요 커맨드 - 3. Exploring"
 date: 2020-03-22 19:42:28 -0000
-categories: jekyll update
+categories: Linux OSS
 ---
 
 ## 1. file   
