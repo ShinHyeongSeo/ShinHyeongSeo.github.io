@@ -1,5 +1,5 @@
 ---
-title: "Linux 주요 커맨드 30가지 - 1. Shell"
+title: "Linux 주요 커맨드 - 1. Shell"
 date: 2020-03-22 19:18:28 -0400
 categories: jekyll update
 ---
