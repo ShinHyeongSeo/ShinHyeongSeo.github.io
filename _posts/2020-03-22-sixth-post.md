@@ -6,7 +6,7 @@ categories: Linux OSS
 
 ## 1. sort       
 파일의 내용을 오름차순으로 정렬           
-사용방법 : type [파일명]     
+사용방법 : sort [파일명]     
 ![sort](https://user-images.githubusercontent.com/62292136/77249369-e95e2c00-6c83-11ea-8b73-7d1e135c87b9.PNG)     
      
      
