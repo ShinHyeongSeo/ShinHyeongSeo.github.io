@@ -19,23 +19,23 @@ categories: Linux OSS
      
      
 ## 3. help
-명령어의 도움말을 출력해줌
+명령어의 도움말을 출력해줌     
 사용방법 : [명령어] --help     
 ![help](https://user-images.githubusercontent.com/62292136/77248253-5b7e4300-6c7b-11ea-9fd8-56d82ccf3ad5.PNG)     
      
      
      
 ## 4. man
-명령어의 매뉴얼 출력해줌
-사용방법 : man [명령어]     
-h를 누르면 사용방법을 알 수 있고, q를 누르면 종료     
+명령어의 매뉴얼 출력해줌     
+사용방법 : man [명령어]         
+h를 누르면 사용방법을 알 수 있고, q를 누르면 종료        
 Page Up,Page Down,스페이스바 를 이용해서 한 페이지씩 넘기기 가능     
 ![man](https://user-images.githubusercontent.com/62292136/77248298-ac8e3700-6c7b-11ea-81a0-84405f55ffc0.PNG)     
      
      
      
 ## 5. info     
-명령어의 사용방법, 옵션 등을 나타냄
+명령어의 사용방법, 옵션 등을 나타냄     
 사용방법 : info [명령어]     
 ![info](https://user-images.githubusercontent.com/62292136/77248311-cd568c80-6c7b-11ea-9202-04d527e9dcf3.PNG)     
      
@@ -55,7 +55,7 @@ whatis DB를 검색해 입력받은 명령어가 포함된 명령어와 그 명�
      
      
      
-##8. alias     
+## 8. alias     
 긴 명령어를 간략하게 별칭으로 등록 가능     
 alias만 입력하면 별칭으로 등록된 명령어들의 목록 나타냄     
 사용방법 : alias [별칭]="명령어"     
