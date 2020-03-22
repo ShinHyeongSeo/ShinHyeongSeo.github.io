@@ -1,5 +1,5 @@
 ---
-title: "Linux 주요 커맨드 -5. Commands"
+title: "Linux 주요 커맨드 - 5. Commands"
 date: 2020-03-22 20:22:28 -0000
 categories: Linux OSS
 ---
