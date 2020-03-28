@@ -4,7 +4,7 @@ date: 2020-03-28 22:41:28 -0000
 categories: Linux OSS Vim
 ---
 
-### Vim 의 모드       
+# Vim 의 모드       
      
 ## 일반 모드(Normal mode) 또는 명령모드 (Command mode)     
      Vim을 실행하면 초기의 상태 다른 mode에서 Esc를 통해서 다시 명령모드로 돌아올 수 있다.     
