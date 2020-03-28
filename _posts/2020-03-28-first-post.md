@@ -7,7 +7,7 @@ categories: Linux OSS Vim
 # Vim 의 모드       
      
 ## 일반 모드(Normal mode) 또는 명령모드 (Command mode)     
-     Vim을 실행하면 초기의 상태 다른 mode에서 Esc를 통해서 다시 명령모드로 돌아올 수 있다.     
+Vim을 실행하면 초기의 상태 다른 mode에서 Esc를 통해서 다시 명령모드로 돌아올 수 있다.     
 ## 명령줄 모드(Command Line mode)     
      명령모드에서 ":"을 입력하면 명령줄 모드로 진입, ":" 뒤에 명령문장을 입력     
      
