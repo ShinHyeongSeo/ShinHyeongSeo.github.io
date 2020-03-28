@@ -6,21 +6,29 @@ categories: Linux OSS Vim
 
 # Vim 의 모드       
      
-## 일반 모드(Normal mode) 또는 명령모드 (Command mode)     
+## 1.일반 모드(Normal mode) 또는 명령모드 (Command mode)     
 Vim을 실행하면 초기의 상태     
 다른 mode에서 Esc를 통해서 다시 명령모드로 돌아올 수 있다.     
 
-## 명령줄 모드(Command Line mode)     
+## 2.명령줄 모드(Command Line mode)     
 명령모드에서 ":"을 입력하면 명령줄 모드로 진입     
 ":" 뒤에 명령문장을 입력     
      
-## 편집 모드(Insert mode)     
+## 3.편집 모드(Insert mode)     
 명령모드에서 "a", "A", "i", "I", "o", "O"를 입력하면 편집 모드로 진입     
 문서의 내용을 작성하는 용도, 주로 "i"와 "a"가 자주 사용     
      
-## 비주얼 / 선택 모드(Visual Mode)     
+## 4.비주얼 / 선택 모드(Visual Mode)     
 명령모드에서 "v", "V"를 입력하면 비주얼 모드로 진입     
 임의의 구간을 잘라내기 복사 붙여넣기 하는 데 용이 (잘 쓰이지 않음)     
+     
+     
+     
+# Vim 명령어     
+     
+## 1. 명령모드(Command mode)     
+## 2. 명령줄모드(Command Line mode)     
+
      
      
      
