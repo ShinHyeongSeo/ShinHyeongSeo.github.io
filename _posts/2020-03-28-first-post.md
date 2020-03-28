@@ -1,7 +1,7 @@
 ---
-title: "Linux 주요 커맨드 - 8. Keyboard tricks"
-date: 2020-03-22 21:44:28 -0000
-categories: Linux OSS
+title: "Vim 명령어 사용법"
+date: 2020-03-28 22:41:28 -0000
+categories: Linux OSS Vim
 ---
 
 ## 1. clear       
