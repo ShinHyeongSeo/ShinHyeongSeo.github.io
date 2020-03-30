@@ -145,8 +145,16 @@ CTRL + G : 현재 커서의 위치가 줄번호로 아래쪽에 출력되고,
 <img width="514" alt="찾기" src="https://user-images.githubusercontent.com/62292136/77890631-c26ab000-72aa-11ea-89ae-01758e6045e5.PNG">     
      
 ?글자(단어) : 현재 커서의 위쪽으로 글자(단어) 한 번 찾기     
-n : /글자(단어) 입력일때는 아래쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행방향)         
+<img width="511" alt="위에찾기" src="https://user-images.githubusercontent.com/62292136/77891153-8421c080-72ab-11ea-8b6e-f8901412ba63.PNG">     
+     
+n : /글자(단어) 입력일때는 아래쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행방향)    
+<img width="513" alt="n2" src="https://user-images.githubusercontent.com/62292136/77891453-f2ff1980-72ab-11ea-8872-9f1dd04c82f9.PNG">     
+     
+<img width="513" alt="n3" src="https://user-images.githubusercontent.com/62292136/77891457-f4304680-72ab-11ea-99e1-1da2f2b019be.PNG">     
+     
 SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행 반대방향)     
+<img width="511" alt="쉬프트n" src="https://user-images.githubusercontent.com/62292136/77891506-0611e980-72ac-11ea-91d1-bbe5b331d8e3.PNG">     
+     
      
      
      
@@ -195,6 +203,10 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
 <img width="513" alt="전체바꾸기결과" src="https://user-images.githubusercontent.com/62292136/77890764-f34ae500-72aa-11ea-8f0f-b2730550d9ef.PNG">     
 
 :%s/찾는단어/새단어/gc : 현재 파일 전체에서 찾는 단어를 새단어로 모두 바꾸되, 물어보기     
+<img width="512" alt="바꿀때물어보기" src="https://user-images.githubusercontent.com/62292136/77891319-baf7d680-72ab-11ea-94e9-c3893180f0ec.PNG">     
+     
+<img width="510" alt="바꿀때물어보기2" src="https://user-images.githubusercontent.com/62292136/77891323-bc290380-72ab-11ea-8694-ec3d76f20fe3.PNG">     
+     
 :#,#s/찾는단어/새단어/g : 두 줄번호(#) 사이에서 찾는 단어를 새단어로 모두 바꾸기     
 <img width="513" alt="줄번호로바꾸기" src="https://user-images.githubusercontent.com/62292136/77890442-6bfd7180-72aa-11ea-8949-f62b830e186e.PNG">     
      
