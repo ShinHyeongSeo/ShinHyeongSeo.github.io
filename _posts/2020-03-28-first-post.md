@@ -106,17 +106,18 @@ r : 현재 커서 위치의 한 글자 변경
      
 cw : 현재 커서에서 단어의 끝까지 변경     
 (실행하면 해당단어 삭제된 후 새로 입력 후 편집 모드로 변경)     
-
-
+<img width="482" alt="cw" src="https://user-images.githubusercontent.com/62292136/77892672-eda2ce80-72ad-11ea-834f-fbdd53db52fc.PNG">     
+     
 c$ : 현재 커서가 포함되는 줄 전체를 변경     
-(실행하면 해당 줄 전체 삭제 후 새로 입력 후 편집모드로 변경)   
-
+(실행하면 해당 줄 전체 삭제 후 새로 입력 후 편집모드로 변경)     
+<img width="483" alt="c$" src="https://user-images.githubusercontent.com/62292136/77892679-ef6c9200-72ad-11ea-8b9b-a21f80bf0854.PNG">     
      
      
      
 ### 1.6. 붙여넣기     
 사용 방법 : p     
 마지막에 지웠던 내용을 현재 커서 다음 위치에 붙여넣음     
+<img width="510" alt="p" src="https://user-images.githubusercontent.com/62292136/77891874-9ea86980-72ac-11ea-891b-81950650dd3f.PNG">     
      
      
      
@@ -196,7 +197,15 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
      
 ### 2.4. 글자(단어) 수정     
 :s/찾는단어/새단어 : 현재 커서가 있는 줄에서 찾는 단어를 새 단어로 한번 바꾸기     
+<img width="483" alt="s원래" src="https://user-images.githubusercontent.com/62292136/77892292-59d10280-72ad-11ea-86ce-6859e614dc5c.PNG">     
+     
+<img width="484" alt="s바뀜" src="https://user-images.githubusercontent.com/62292136/77892285-589fd580-72ad-11ea-9d0d-c8f04f9aa8bf.PNG">     
+     
 :s/찾는단어/새단어/g : 현재 커서가 있는 줄에서 찾는 단어를 새단어로 모두 바꾸기     
+<img width="486" alt="다바꾸기원래" src="https://user-images.githubusercontent.com/62292136/77892349-740ae080-72ad-11ea-8572-51aa29b5912f.PNG">     
+     
+<img width="483" alt="다바꾸기" src="https://user-images.githubusercontent.com/62292136/77892346-73724a00-72ad-11ea-916d-70b3e3ad5bb6.PNG">     
+     
 :%s/찾는단어/새단어/g : 현재 파일 전체에서 찾는 단어를 새단어로 모두 바꾸기     
 <img width="513" alt="전체바꾸기" src="https://user-images.githubusercontent.com/62292136/77890762-f219b800-72aa-11ea-9a57-beffde6b4e14.PNG">     
      
