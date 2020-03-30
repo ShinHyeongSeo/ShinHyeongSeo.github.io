@@ -35,7 +35,12 @@ Vim을 실행하면 초기의 상태
 ### 1.1 Vim     
 사용 방법 : Vim [파일명]     
 [파일명]이 현재 디렉토리에 존재할 시, 파일의 내용을 명령모드 상태로 보여줌     
+<img width="495" alt="vim_파일o" src="https://user-images.githubusercontent.com/62292136/77885761-951a0400-72a2-11ea-959c-32e5b2c05e42.PNG">     
+
 [파일명]이 현재 디렉토리에 존재하지 않을 시, 입력한 [파일명]을 파일명으로 한 새로운 파일을 만들고, 명령모드 상태로 보여줌     
+<img width="495" alt="vim_파일X" src="https://user-images.githubusercontent.com/62292136/77885810-a9f69780-72a2-11ea-9d1f-6483684a23f3.PNG">     
+     
+     
      
      
      
@@ -46,6 +51,9 @@ Vim을 실행하면 초기의 상태
      
 * 명령줄 모드     
 \: -> 명령줄 모드로 진입 후, : 뒤에 명령 입력을 통해 명령 실행     
+<img width="483" alt="명령줄" src="https://user-images.githubusercontent.com/62292136/77885442-f8effd00-72a1-11ea-9b19-1c8099eaf6ca.PNG">     
+     
+     
       
 * 편집 모드     
 i : 현재 커서 앞에서 편집 시작     
@@ -54,19 +62,32 @@ a : 현재 커서 뒤에서 편집 시작
 A : 현재 커서가 있는 줄 맨 뒤에서 편집 시작     
 o : 현재 커서 아래에 새로운 줄 추가, 편집 시작     
 O : 현재 커서 위에 새로운 줄 추가, 편집 시작    
+<img width="482" alt="insert" src="https://user-images.githubusercontent.com/62292136/77885495-12914480-72a2-11ea-961a-7f523402b1ca.PNG">     
+     
+     
      
 * 비주얼 모드     
 v : 현재 커서부터 선택     
 V : 현재 커서가 있는 줄부터 줄 단위로 선택     
+<img width="481" alt="visual" src="https://user-images.githubusercontent.com/62292136/77885530-23da5100-72a2-11ea-91d4-4ac3de31f1ac.PNG">     
+     
      
      
      
 ### 1.3. 지우기     
 사용 방법 : [입력키]     
 x : 현재 커서 위치의 한 글자 지우기     
+<img width="484" alt="x" src="https://user-images.githubusercontent.com/62292136/77885616-51bf9580-72a2-11ea-83bb-c71861f5e78e.PNG">     
+
 dw : 현재 커서 위치에서 단어의 끝까지 지우기     
+<img width="482" alt="dw" src="https://user-images.githubusercontent.com/62292136/77885647-5f751b00-72a2-11ea-9de0-78bf00decdaf.PNG">     
+     
 dd : 현재 커서 위치에 있는 줄 한 줄 지우기     
+<img width="483" alt="dd" src="https://user-images.githubusercontent.com/62292136/77885674-6a2fb000-72a2-11ea-9bd7-06e34c80dadb.PNG">     
+     
 숫자dd : 현재 커서 위치를 포함한 줄에서 숫자만큼의 아래줄 지우기     
+<img width="481" alt="4dd" src="https://user-images.githubusercontent.com/62292136/77885712-7ca9e980-72a2-11ea-8da4-4c24306f0c77.PNG">     
+     
      
      
      
@@ -81,24 +102,36 @@ Ctrl+r : u나 U로 실행했던 명령 다시 되돌리기 --> 일반적인 Ctrl
 ### 1.5. 내용 변경     
 사용 방법 : [입력키]     
 r : 현재 커서 위치의 한 글자 변경     
+<img width="438" alt="r" src="https://user-images.githubusercontent.com/62292136/77885883-d1e5fb00-72a2-11ea-9773-6e216df75359.PNG">     
+     
 cw : 현재 커서에서 단어의 끝까지 변경     
 (실행하면 해당단어 삭제된 후 새로 입력 후 편집 모드로 변경)     
+<img width="437" alt="cw" src="https://user-images.githubusercontent.com/62292136/77885951-f4781400-72a2-11ea-8422-e143778248b8.PNG">     
+<img width="511" alt="cw2" src="https://user-images.githubusercontent.com/62292136/77885955-f6da6e00-72a2-11ea-97ad-4f8d39df6892.PNG">     
+
 c$ : 현재 커서가 포함되는 줄 전체를 변경     
-(실행하면 해당 줄 전체 삭제 후 새로 입력 후 편집모드로 변경)          
+(실행하면 해당 줄 전체 삭제 후 새로 입력 후 편집모드로 변경)   
+
      
      
      
 ### 1.6. 붙여넣기     
 사용 방법 : p     
-마지막에 지웠던 내용을 현재 커서 아래줄에 붙여넣음     
+마지막에 지웠던 내용을 현재 커서 다음 위치에 붙여넣음     
      
      
      
 ### 1.7. 이동     
-줄번호 + SHIFT + G : 입력한 줄번호로 커서 이동
-SHIFT + G : 파일에서 마지막 줄로 이동 (새로운 내용을 바로 입력해야할때 용이)     
+줄번호 + SHIFT + G : 입력한 줄번호로 커서 이동     
+<img width="514" alt="이동1" src="https://user-images.githubusercontent.com/62292136/77886179-59336e80-72a3-11ea-8107-b9827bec27f7.PNG">     
+     
+SHIFT + G : 파일에서 마지막 줄로 이동 (새로운 내용을 바로 입력해야할때 용이)   
+<img width="513" alt="이동2" src="https://user-images.githubusercontent.com/62292136/77886180-59cc0500-72a3-11ea-8a2a-fdf2a1ace56d.PNG">     
+     
 CTRL + G : 현재 커서의 위치가 줄번호로 아래쪽에 출력되고,     
-           커서가 있는 줄이 파일의 몇%인지 아래쪽에 출력됨     
+           커서가 있는 줄이 파일의 몇%인지 아래쪽에 출력됨    
+<img width="511" alt="이동3" src="https://user-images.githubusercontent.com/62292136/77886182-5a649b80-72a3-11ea-859f-c7ccc364e022.PNG">     
+     
      
      
      
@@ -110,9 +143,9 @@ CTRL + G : 현재 커서의 위치가 줄번호로 아래쪽에 출력되고,
      
 ### 1.9. 찾기     
 /글자(단어) : 현재 커서의 아래쪽으로 글자(단어) 한 번 찾기     
-n : /글자(단어) 입력 후 해당 글자(단어)를 아래쪽으로 또 찾음     
 ?글자(단어) : 현재 커서의 위쪽으로 글자(단어) 한 번 찾기     
-SHIFT + n : ?글자(단어) 입력 후 해당 글자(단어)를 위쪽으로 또 찾음     
+n : /글자(단어) 입력일때는 아래쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행방향)         
+SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행 반대방향)     
      
      
      
@@ -154,7 +187,11 @@ SHIFT + n : ?글자(단어) 입력 후 해당 글자(단어)를 위쪽으로 또
      
 ### 2.5. 작업 도중 다른 파일 vim으로 열기     
 :vs [파일명] : 수직으로 창을 나눈 후, 해당 파일을 vim으로 열기     
+<img width="514" alt="창이동1" src="https://user-images.githubusercontent.com/62292136/77886362-b16a7080-72a3-11ea-954a-ec1823f03fe5.PNG">     
+     
 :split [파일명] : 수평으로 창을 나눈 후, 해당 파일을 vim으로 열기     
+<img width="514" alt="split" src="https://user-images.githubusercontent.com/62292136/77886275-8bdd6700-72a3-11ea-85da-c6e3809e3d87.PNG">     
+
      
      
      
