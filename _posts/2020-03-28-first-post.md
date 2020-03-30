@@ -106,8 +106,7 @@ r : 현재 커서 위치의 한 글자 변경
      
 cw : 현재 커서에서 단어의 끝까지 변경     
 (실행하면 해당단어 삭제된 후 새로 입력 후 편집 모드로 변경)     
-<img width="437" alt="cw" src="https://user-images.githubusercontent.com/62292136/77885951-f4781400-72a2-11ea-8422-e143778248b8.PNG">     
-<img width="511" alt="cw2" src="https://user-images.githubusercontent.com/62292136/77885955-f6da6e00-72a2-11ea-97ad-4f8d39df6892.PNG">     
+
 
 c$ : 현재 커서가 포함되는 줄 전체를 변경     
 (실행하면 해당 줄 전체 삭제 후 새로 입력 후 편집모드로 변경)   
@@ -143,6 +142,8 @@ CTRL + G : 현재 커서의 위치가 줄번호로 아래쪽에 출력되고,
      
 ### 1.9. 찾기     
 /글자(단어) : 현재 커서의 아래쪽으로 글자(단어) 한 번 찾기     
+<img width="514" alt="찾기" src="https://user-images.githubusercontent.com/62292136/77890631-c26ab000-72aa-11ea-89ae-01758e6045e5.PNG">     
+     
 ?글자(단어) : 현재 커서의 위쪽으로 글자(단어) 한 번 찾기     
 n : /글자(단어) 입력일때는 아래쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행방향)         
 SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행 반대방향)     
@@ -152,6 +153,11 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
 ### 1.10. 창 이동      
 사용 방법 : CTRL + ww
 명령줄모드에서 명령으로 여러 파일의 에디터를 띄웠을때 작업커서를 다른 파일로 옮길 때 사용     
+<img width="514" alt="창이동1" src="https://user-images.githubusercontent.com/62292136/77886362-b16a7080-72a3-11ea-954a-ec1823f03fe5.PNG">     
+     
+<img width="525" alt="창이동2" src="https://user-images.githubusercontent.com/62292136/77889963-a9adca80-72a9-11ea-9d70-6cc74463fa52.PNG">     
+     
+     
      
      
      
@@ -168,11 +174,15 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
 ### 2.2. 줄 번호 표시     
 사용 방법 : :set number     
 파일에서 줄번호를 표시해줘서 다른 명령을 수행하기 수월해짐    
+<img width="514" alt="setnumber" src="https://user-images.githubusercontent.com/62292136/77890048-cb0eb680-72a9-11ea-812d-5035a053eae2.PNG">     
+     
      
      
      
 ### 2.3. 이동     
 :줄번호 : 해당 줄번호로 커서 이동     
+<img width="514" alt="명령줄이동" src="https://user-images.githubusercontent.com/62292136/77890088-dc57c300-72a9-11ea-8fff-5849939764ee.PNG">     
+     
      
      
      
@@ -180,8 +190,15 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
 :s/찾는단어/새단어 : 현재 커서가 있는 줄에서 찾는 단어를 새 단어로 한번 바꾸기     
 :s/찾는단어/새단어/g : 현재 커서가 있는 줄에서 찾는 단어를 새단어로 모두 바꾸기     
 :%s/찾는단어/새단어/g : 현재 파일 전체에서 찾는 단어를 새단어로 모두 바꾸기     
+<img width="513" alt="전체바꾸기" src="https://user-images.githubusercontent.com/62292136/77890762-f219b800-72aa-11ea-9a57-beffde6b4e14.PNG">     
+     
+<img width="513" alt="전체바꾸기결과" src="https://user-images.githubusercontent.com/62292136/77890764-f34ae500-72aa-11ea-8f0f-b2730550d9ef.PNG">     
+
 :%s/찾는단어/새단어/gc : 현재 파일 전체에서 찾는 단어를 새단어로 모두 바꾸되, 물어보기     
 :#,#s/찾는단어/새단어/g : 두 줄번호(#) 사이에서 찾는 단어를 새단어로 모두 바꾸기     
+<img width="513" alt="줄번호로바꾸기" src="https://user-images.githubusercontent.com/62292136/77890442-6bfd7180-72aa-11ea-8949-f62b830e186e.PNG">     
+     
+<img width="513" alt="줄번호로바꾸기결과" src="https://user-images.githubusercontent.com/62292136/77890444-6d2e9e80-72aa-11ea-96ed-a5f0dcae4558.PNG">     
      
      
      
@@ -197,17 +214,24 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
      
 ### 2.6. 외부 명령 잠깐 수행     
 :!명령어<ENTER> : 쉘 명령을 실행하여 결과를 확인할 수 있음, <ENTER> 다시 누르면 vim으로 복귀     
+<img width="512" alt="외부명령어" src="https://user-images.githubusercontent.com/62292136/77890125-ebd70c00-72a9-11ea-8bbe-a9bfe0ddd366.PNG">     
+     
+<img width="510" alt="외부명령어결과" src="https://user-images.githubusercontent.com/62292136/77890127-ed083900-72a9-11ea-9592-f4703b3603bd.PNG">     
      
      
      
 ### 2.7. 현재 파일에 다른 파일 내용 복사
 :r [파일명] : 현재 열려있는 파일에 입력한 [파일명]에 해당하는 파일의 내용이 현재 커서의 아래줄에서부터 복사됨     
+<img width="512" alt="다른파일내용복사" src="https://user-images.githubusercontent.com/62292136/77890193-0f9a5200-72aa-11ea-8359-c3b6d06c8cb6.PNG">     
+     
+<img width="511" alt="다른파일내용복사결과" src="https://user-images.githubusercontent.com/62292136/77890196-10cb7f00-72aa-11ea-9cdb-e91465b88569.PNG">     
      
      
      
 ### 2.8. 파일 일부 따로 저장     
 :줄번호, 줄번호 w [파일명] : 두 줄 번호 사이의 내용을 새로운 파일로 저장     
+<img width="514" alt="일부따로저장" src="https://user-images.githubusercontent.com/62292136/77890241-2345b880-72aa-11ea-8427-7d7e8dcb6167.PNG">     
+     
+<img width="512" alt="일부따로저장결과" src="https://user-images.githubusercontent.com/62292136/77890245-2476e580-72aa-11ea-9556-64a676c132f2.PNG">
 
-     
-     
      
