@@ -1,7 +1,7 @@
 ---
-title: "Linux 주요 커맨드 - 8. Keyboard tricks"
-date: 2020-03-22 21:44:28 -0000
-categories: Linux OSS
+title: "Git 명령어 정리"
+date: 2020-04-11 17:49:28 -0000
+categories: Linux OSS Git
 ---
 
 ## 1. clear       
