@@ -6,7 +6,8 @@ categories: Linux OSS Git
 
 ## 1. 작업 공간 시작       
 ### 1. clone
-### 2. init     
+### 2. init
+로컬 저장소로 사용할 폴더를 생성하여 해당 폴더로 이동 후 "git init"을 입력하면 새로운 git저장소가 만들어진다.     
      
     
      
