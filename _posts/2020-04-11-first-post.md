@@ -63,3 +63,32 @@ local repository에 있는 파일들을 repote repository로 추가
      
      
 # 2. 실습 예제
+### 1. github.com 로그인 후 project1 repository 생성
+### 2. peace서버 로그인
+### 3. git global 값 초기화
+### 4. project directory에서 git repository 생성
+### 5. 소스파일 staging area에 등록
+### 6. staging area의 소스파일 local repository로 commit
+### 7. remote repository로 push
+### 8. 소스파일의 Update기능 추가 후 다시 5~7번 실행
+### 9. 소스파일의 Delete기능 추가 후 다시 5~7번 실행
+### 10. 소스파일의 파일명을 변경 후 다시 5~7번 실행
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
