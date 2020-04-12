@@ -203,10 +203,36 @@ git status -s ---> working directory 상태 한 줄로 간단히 표시해줌
      
 ### 9. 소스파일의 Update기능 추가 후 다시 6번, 8번 실행
 <img width="947" alt="수정후_commit" src="https://user-images.githubusercontent.com/62292136/79071267-df28ce00-7d15-11ea-8f4a-a0f09210a87f.PNG">     
+
+* 저장된 remote repository(Github)에서 commit 버튼 클릭 후 commit 종류 선택하면 이전 commit과의 차이점을 볼 수 있음     
+<img width="943" alt="깃허브_diff_update" src="https://user-images.githubusercontent.com/62292136/79073803-852f0500-7d23-11ea-851b-fa26a92ad401.PNG">     
+     
+<img width="849" alt="깃허브_diff_update2" src="https://user-images.githubusercontent.com/62292136/79073805-86f8c880-7d23-11ea-826f-2494c26d9f7a.PNG">     
+     
+     
+
      
 ### 10. 소스파일의 Delete기능 추가 후 다시 6번, 8번 실행
 <img width="948" alt="delete기능추가후commit" src="https://user-images.githubusercontent.com/62292136/79071257-c6b8b380-7d15-11ea-9155-0de98fced493.PNG">     
      
+* 저장된 remote repository(Github)에서 commit 버튼 클릭 후 commit 종류 선택하면 이전 commit과의 차이점을 볼 수 있음     
+<img width="943" alt="깃허브_diff_delete" src="https://user-images.githubusercontent.com/62292136/79073769-5022b280-7d23-11ea-918c-e20b2e519a0c.PNG">     
+     
+<img width="859" alt="깃허브_diff_delete2" src="https://user-images.githubusercontent.com/62292136/79073771-5153df80-7d23-11ea-887c-0589a742f27a.PNG">     
+     
+     
+     
+
+     
 ### 11. 소스파일의 파일명을 변경 후 다시 6번, 8번 실행
 <img width="947" alt="mv_결과" src="https://user-images.githubusercontent.com/62292136/79071287-ed76ea00-7d15-11ea-897f-f953c9e86071.PNG">     
+
+* 저장된 remote repository(Github)에서 commit 버튼 클릭 후 commit 종류 선택하면 이전 commit과의 차이점을 볼 수 있음     
+<img width="939" alt="깃허브_diff_renamed" src="https://user-images.githubusercontent.com/62292136/79073728-12be2500-7d23-11ea-9dee-f02e74a601b4.PNG">     
+     
+     
+     
+     
+     
+
     
