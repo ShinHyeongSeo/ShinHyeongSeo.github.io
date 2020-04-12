@@ -52,12 +52,18 @@ git remote add origin <url>   -----> 로컬 저장소에 있는 파일들을 등
 ### 2. mv
 파일의 이름을 변경할 때 쓰인다.     
 사용 방법 : git mv <기존 파일명> <바꿀 파일명>     
+<img width="483" alt="git_mv" src="https://user-images.githubusercontent.com/62292136/79073002-0637cd80-7d1f-11ea-8ff3-00991b475852.PNG">
+     
      
      
      
 ### 3. reset
 파일의 add를 취소하고 staged됐던 파일들은 unstaged 상태로 되돌린다.     
 사용 방법 : git reset <파일명>     
+<img width="394" alt="reset_1" src="https://user-images.githubusercontent.com/62292136/79073023-1f407e80-7d1f-11ea-8e3c-c84ca08cd13c.PNG">     
+     
+<img width="517" alt="reset_2" src="https://user-images.githubusercontent.com/62292136/79073027-22d40580-7d1f-11ea-95b3-9276c055e843.PNG">     
+     
      
      
      
@@ -65,7 +71,16 @@ git remote add origin <url>   -----> 로컬 저장소에 있는 파일들을 등
 git과 로컬 디렉토리에서 파일을 모두 삭제할 때 쓰인다.     
 사용 방법     
 git rm <파일명>   ---> remote repository와 로컬 디렉토리에서 파일을 모두 삭제한다.       
-git rm --cached <파일명> ---> remote repository에 있는 파일만 삭제하고 로컬 디렉토리에서 파일은 삭제하지 않는다.        
+<img width="583" alt="rm_1" src="https://user-images.githubusercontent.com/62292136/79073048-45661e80-7d1f-11ea-9486-6a1cf01f5a8a.PNG">     
+     
+<img width="945" alt="rm_2" src="https://user-images.githubusercontent.com/62292136/79073049-47c87880-7d1f-11ea-9a9b-2e7d709127a9.PNG">     
+     
+git rm --cached <파일명> ---> remote repository에 있는 파일만 삭제하고 로컬 디렉토리에서 파일은 삭제하지 않는다.     
+<img width="946" alt="rm--cached" src="https://user-images.githubusercontent.com/62292136/79073086-80685200-7d1f-11ea-9d06-34b54b0e0c2c.PNG">     
+<img width="645" alt="git_rm-cached3" src="https://user-images.githubusercontent.com/62292136/79073088-82caac00-7d1f-11ea-90e5-0df0ac76db5c.PNG">     
+<img width="610" alt="git_rm_cached4" src="https://user-images.githubusercontent.com/62292136/79073090-85c59c80-7d1f-11ea-98e0-aa79890c8a34.PNG">     
+<img width="944" alt="rm_--cached2" src="https://user-images.githubusercontent.com/62292136/79073096-8f4f0480-7d1f-11ea-8132-93b3391d8619.PNG">     
+     
      
      
 ## 3. 커밋 내역 표시 및 조작     
@@ -77,8 +92,9 @@ git commit -m "comment"     ----> -m "comment" 를 입력하면 commit할때 어
      
      
 ### 2. checkout
-working directory에서 수정한 파일내용을 다시 수정하기 전으로 되돌리고 싶을 때 사용한다.     
+working directory에서 수정한 파일내용을 가장 최근의 commit한 파일내용으로 되돌리고 싶을 때 사용한다.     
 사용 방법 : git checkout <파일명>     
+<img width="582" alt="checkout" src="https://user-images.githubusercontent.com/62292136/79073126-bc031c00-7d1f-11ea-813a-bc2e7eb48f12.PNG">     
      
      
      
@@ -89,8 +105,18 @@ staging area에 있는 파일과 최근에 commit했던 파일들의 차이점�
      
 사용 방법
 git diff                           -----> working directory에서 작업한 파일의 내용과 가장 최근에 commit한 파일내용의 차이점을 보여줌     
+<img width="296" alt="git_diff" src="https://user-images.githubusercontent.com/62292136/79073195-287e1b00-7d20-11ea-9e37-948e2ec8c99b.PNG">     
+     
 git diff <checksum1> <checksum2>   -----> 이때까지 commit했던 내용들의 checksum을 입력해 내용간의 차이점을 보여줌     
+<img width="625" alt="git_diff_2개" src="https://user-images.githubusercontent.com/62292136/79073217-4b103400-7d20-11ea-8a80-23f2d4ee8848.PNG">     
+     
+<img width="945" height = "840" alt="git_diff_2r개_결과" src="https://user-images.githubusercontent.com/62292136/79073219-4e0b2480-7d20-11ea-88fb-2e5b5f8a5413.PNG">     
+     
 git diff --staged                  -----> staging area에 있는 파일내용과 commit했던 파일내용의 차이점을 보여줌     
+<img width="593" height = "500" alt="git_diff_staged" src="https://user-images.githubusercontent.com/62292136/79073256-7dba2c80-7d20-11ea-8f01-4308e78419c3.PNG">     
+     
+<img width="595" height = "500" alt="git_diff_staged2" src="https://user-images.githubusercontent.com/62292136/79073257-7f83f000-7d20-11ea-8465-206a8ab8a008.PNG">     
+     
      
      
      
