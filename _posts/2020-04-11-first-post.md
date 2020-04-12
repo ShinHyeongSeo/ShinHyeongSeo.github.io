@@ -3,9 +3,19 @@ title: "Git 명령어 정리"
 date: 2020-04-11 17:49:28 -0000
 categories: Linux OSS Git
 ---
-
-# 1. Git 명령어 정리
-## 1. 작업 공간 시작       
+# 1. Git 작업 구조의 이해
+### 1. Working Directory
+Working Directory란 현재 우리가 파일을 작업하고 있는 공간이다.
+### 2. Staging Area
+Staging Area는 Working Directory에서 작업한 파일들이 add가 되서 저장되는 공간이다.
+### 3. Local Repository
+Local Repository는 Staging Area에 저장된 파일들을 commit하면 저장되는 공간이다.
+### 4. Remote Repository
+Remote Repository는 Local Repository에 저장된 파일들이 push되어서 저장되는 Github사이트나 원격 저장소 같은 공간이다.     
+     
+     
+     
+# 2. Git 명령어 정리
 ### 1. init
 로컬 저장소로 사용할 폴더를 생성하여 해당 폴더로 이동 후 "git init"을 입력하면 새로운 git저장소가 만들어진다.    
 (지금 있는 디렉토리를 git을 통해 버전관리를 하겠다고 지정함)   
@@ -105,7 +115,7 @@ git status -s ---> working directory 상태 한 줄로 간단히 표시해줌
      
      
      
-# 2. 실습 예제
+# 3. 실습 예제
 ### 1. github.com 로그인 후 project1 repository 생성
 <img width="945" alt="project1생성" src="https://user-images.githubusercontent.com/62292136/79070750-c2d76200-7d12-11ea-9800-48ef186cbc3a.PNG">     
      
