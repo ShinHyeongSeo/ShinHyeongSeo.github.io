@@ -21,27 +21,35 @@ categories: Linux OSS Git
 git remote add origin <url> reote repository를 등록     
      
 ### 2. mv
+파일 이름 변경
 ### 3. reset
+파일을 현재 버전으로 되돌리기 add무효화 변경된 staging area 무혀화, 가장 최근버전으로 돌아감
 ### 4. rm     
+git과 로컬 디렉토리에서 모두 삭제
      
      
      
 ## 3. 커밋 내역 표시 및 조작     
 ### 1. commit
-staging area에 파일들을 local repository에 기록
+staging area에 파일들을 local repository에 등록
 ### 2. merge
 ### 3. branch
 ### 4. checkout
+working directory에서 수정한 파일내용을 다시 수정하기 전으로 되돌리고 싶을 때
 ### 5. diff
+working directory에서 작업한 파일의 내용과 가장 최근에 commit한 파일내용의 차이점을 보여줌
+두 개의 값을 입력하면 두 파일간의 차이점을 보여줌
 ### 6. tag
      
      
      
 ## 4. 커밋 내역 및 상태보기     
 ### 1. log
+커밋 기록 보기
 ### 2. status
+작업 폴더의 상태를 표시
 ### 3. show
-     
+가장 최근의 커밋 정보 확인     
      
 ## 5. 협동 작업
 ### 1. fetch
