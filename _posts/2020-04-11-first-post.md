@@ -45,14 +45,15 @@ git remote add origin <url>   -----> 로컬 저장소에 있는 파일들을 등
      
 ### 4. rm     
 git과 로컬 디렉토리에서 파일을 모두 삭제할 때 쓰인다.     
-사용 방법 : git rm <파일명>     
-     
+사용 방법     
+git rm <파일명>   ---> remote repository와 로컬 디렉토리에서 파일을 모두 삭제한다.       
+git rm --cached <파일명> ---> remote repository에 있는 파일만 삭제하고 로컬 디렉토리에서 파일은 삭제하지 않는다.        
      
      
 ## 3. 커밋 내역 표시 및 조작     
 ### 1. commit
 staging area에 파일들을 local repository에 등록할 때 쓰인다.     
-사용 방법
+사용 방법     
 git commit -m "comment"     ----> -m "comment" 를 입력하면 commit할때 어떤 점이 변경되었는지 알수 있게 comment를 표시해준다.     
      
      
@@ -72,10 +73,6 @@ staging area에 있는 파일과 최근에 commit했던 파일들의 차이점�
 git diff                           -----> working directory에서 작업한 파일의 내용과 가장 최근에 commit한 파일내용의 차이점을 보여줌     
 git diff <checksum1> <checksum2>   -----> 이때까지 commit했던 내용들의 checksum을 입력해 내용간의 차이점을 보여줌     
 git diff --staged                  -----> staging area에 있는 파일내용과 commit했던 파일내용의 차이점을 보여줌     
-
-### 4. merge
-### 5. branch
-### 6. tag
      
      
      
@@ -100,9 +97,7 @@ git status -s ---> working directory 상태 한 줄로 간단히 표시해줌
 사용 방법 : git show     
      
 ## 5. 협동 작업
-### 1. fetch
-### 2. pull
-### 3. push
+### 1. push
 로컬 저장소에 commit 되어있는 있는 파일들을 원격 저장소로 추가     
 사용 방법 : git push -u origin master     
      
@@ -144,24 +139,4 @@ git status -s ---> working directory 상태 한 줄로 간단히 표시해줌
      
 ### 10. 소스파일의 파일명을 변경 후 다시 5~7번 실행
 <img width="947" alt="mv_결과" src="https://user-images.githubusercontent.com/62292136/79071287-ed76ea00-7d15-11ea-897f-f953c9e86071.PNG">     
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
