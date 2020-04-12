@@ -125,20 +125,41 @@ git diff --staged                  -----> staging area에 있는 파일내용과
 이때까지 commit했던 기록들을 보여준다.     
 사용 방법     
 git log ---> 이때까지 commit했던 기록들을 보여줌     
+<img width="481" alt="git_log" src="https://user-images.githubusercontent.com/62292136/79073370-22d50500-7d21-11ea-9b3e-35d9d6b0c659.PNG">     
+     
 git log --oneline ---> 이때까지 commit했던 기록들을 각각 한 줄로 보여줌 (check sum 7자리까지만)   
+<img width="481" alt="gitlog_oneline" src="https://user-images.githubusercontent.com/62292136/79073383-32ece480-7d21-11ea-80fd-dbb395f1c5a1.PNG">     
+     
 git log --pretty=oneline ---> 이때까지 commit했던 기록들을 각각 한줄로 보여줌 check sum 전체)     
+<img width="484" alt="git_log--pretty=oneline" src="https://user-images.githubusercontent.com/62292136/79073386-35e7d500-7d21-11ea-8cac-4e261371a381.PNG">     
+     
 git log --graph ---> 이때까지 commit했던 기록들을 그래프 형식으로 보여줌     
+<img width="484" alt="git_log--graph" src="https://user-images.githubusercontent.com/62292136/79073391-3da77980-7d21-11ea-833d-d88590b78a6e.PNG">     
+     
 git log -p -1 ---> 가장 최근의 commit했던 파일의 내용 중 변경된 내용을 보여줌     
+<img width="481" alt="git_log-p-1" src="https://user-images.githubusercontent.com/62292136/79073396-40a26a00-7d21-11ea-9700-6e651c3c237a.PNG">     
+     
+     
+     
      
 ### 2. status
 working directory의 상태를 표시해준다.     
 사용 방법     
 git status ---> working directory 상태 표시해줌     
+<img width="595" alt="git_status" src="https://user-images.githubusercontent.com/62292136/79073427-79dada00-7d21-11ea-892c-a15628442562.PNG">     
+     
 git status -s ---> working directory 상태 한 줄로 간단히 표시해줌     
+<img width="594" alt="git_status -s" src="https://user-images.githubusercontent.com/62292136/79073429-7b0c0700-7d21-11ea-94d6-ea4d8216ed25.PNG">     
+     
+     
      
 ### 3. show
 가장 최근의 commit기록 중 파일의 내용의 차이점을 보여줄 때 쓰인다.          
 사용 방법 : git show     
+<img width="591" alt="git_show" src="https://user-images.githubusercontent.com/62292136/79073440-9119c780-7d21-11ea-898c-c4e0184777eb.PNG">     
+     
+     
+     
      
 ## 5. 협동 작업
 ### 1. push
