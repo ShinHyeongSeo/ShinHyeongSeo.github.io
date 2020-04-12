@@ -114,8 +114,15 @@ git --oneline 을 통해 얻은 이때까지 commit했던 checksum값을 알아�
 <img width="904" alt="git파일업로드완료" src="https://user-images.githubusercontent.com/62292136/79070928-a25bd780-7d13-11ea-88f4-51992403a30f.PNG">
      
 ### 8. 소스파일의 Update기능 추가 후 다시 5~7번 실행
+<img width="947" alt="수정후_commit" src="https://user-images.githubusercontent.com/62292136/79071267-df28ce00-7d15-11ea-8f4a-a0f09210a87f.PNG">     
+     
 ### 9. 소스파일의 Delete기능 추가 후 다시 5~7번 실행
+<img width="948" alt="delete기능추가후commit" src="https://user-images.githubusercontent.com/62292136/79071257-c6b8b380-7d15-11ea-9155-0de98fced493.PNG">     
+     
 ### 10. 소스파일의 파일명을 변경 후 다시 5~7번 실행
+<img width="947" alt="mv_결과" src="https://user-images.githubusercontent.com/62292136/79071287-ed76ea00-7d15-11ea-897f-f953c9e86071.PNG">     
+     
+
 
 
 
