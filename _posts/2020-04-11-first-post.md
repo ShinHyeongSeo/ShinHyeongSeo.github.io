@@ -15,6 +15,12 @@ Remote Repository는 Local Repository에 저장된 파일들이 push되어서 �
      
      
      
+     
+     
+     
+     
+     
+     
 # 2. Git 명령어 정리
 ## 1. 작업 공간 시작
 
@@ -112,6 +118,11 @@ git status -s ---> working directory 상태 한 줄로 간단히 표시해줌
 ### 1. push
 로컬 저장소에 commit 되어있는 있는 파일들을 원격 저장소로 추가     
 사용 방법 : git push -u origin master     
+     
+     
+     
+     
+     
      
      
      
