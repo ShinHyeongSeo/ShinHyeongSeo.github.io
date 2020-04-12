@@ -110,12 +110,12 @@ git diff                           -----> working directory에서 작업한 파�
 git diff <checksum1> <checksum2>   -----> 이때까지 commit했던 내용들의 checksum을 입력해 내용간의 차이점을 보여줌     
 <img width="625" alt="git_diff_2개" src="https://user-images.githubusercontent.com/62292136/79073217-4b103400-7d20-11ea-8a80-23f2d4ee8848.PNG">     
      
-<img width="945" height = "840" alt="git_diff_2r개_결과" src="https://user-images.githubusercontent.com/62292136/79073219-4e0b2480-7d20-11ea-88fb-2e5b5f8a5413.PNG">     
+<img width="945" height = "300" alt="git_diff_2r개_결과" src="https://user-images.githubusercontent.com/62292136/79073219-4e0b2480-7d20-11ea-88fb-2e5b5f8a5413.PNG">     
      
 git diff --staged                  -----> staging area에 있는 파일내용과 commit했던 파일내용의 차이점을 보여줌     
-<img width="593" height = "500" alt="git_diff_staged" src="https://user-images.githubusercontent.com/62292136/79073256-7dba2c80-7d20-11ea-8f01-4308e78419c3.PNG">     
+<img width="593" height = "300" alt="git_diff_staged" src="https://user-images.githubusercontent.com/62292136/79073256-7dba2c80-7d20-11ea-8f01-4308e78419c3.PNG">     
      
-<img width="595" height = "500" alt="git_diff_staged2" src="https://user-images.githubusercontent.com/62292136/79073257-7f83f000-7d20-11ea-8465-206a8ab8a008.PNG">     
+<img width="595" height = "300" alt="git_diff_staged2" src="https://user-images.githubusercontent.com/62292136/79073257-7f83f000-7d20-11ea-8465-206a8ab8a008.PNG">     
      
      
      
