@@ -4,6 +4,7 @@ date: 2020-04-11 17:49:28 -0000
 categories: Linux OSS Git
 ---
 
+# 1. Git 명령어 정리
 ## 1. 작업 공간 시작       
 ### 1. init
 로컬 저장소로 사용할 폴더를 생성하여 해당 폴더로 이동 후 "git init"을 입력하면 새로운 git저장소가 만들어진다.     
@@ -55,4 +56,10 @@ working directory에서 작업한 파일의 내용과 가장 최근에 commit한
 ### 1. fetch
 ### 2. pull
 ### 3. push
-local repository에 있는 파일들을 repote repository로 추가
+local repository에 있는 파일들을 repote repository로 추가     
+     
+     
+     
+     
+     
+# 2. 실습 예제
