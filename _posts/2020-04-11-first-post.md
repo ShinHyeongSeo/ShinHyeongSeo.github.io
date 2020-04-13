@@ -51,7 +51,7 @@ git remote add origin <url>   -----> 로컬 저장소에 있는 파일들을 등
      
 ### 2. mv
 파일의 이름을 변경할 때 쓰인다.     
-사용 방법 : git mv <기존 파일명> <바꿀 파일명>     
+사용 방법 : git mv [기존 파일명] [바꿀 파일명]     
 <img width="483" alt="git_mv" src="https://user-images.githubusercontent.com/62292136/79073002-0637cd80-7d1f-11ea-8ff3-00991b475852.PNG">
      
      
@@ -59,7 +59,7 @@ git remote add origin <url>   -----> 로컬 저장소에 있는 파일들을 등
      
 ### 3. reset
 파일의 add를 취소하고 staged됐던 파일들은 unstaged 상태로 되돌린다.     
-사용 방법 : git reset <파일명>     
+사용 방법 : git reset [파일명]     
 <img width="394" alt="reset_1" src="https://user-images.githubusercontent.com/62292136/79073023-1f407e80-7d1f-11ea-8e3c-c84ca08cd13c.PNG">     
      
 <img width="517" alt="reset_2" src="https://user-images.githubusercontent.com/62292136/79073027-22d40580-7d1f-11ea-95b3-9276c055e843.PNG">     
@@ -70,12 +70,12 @@ git remote add origin <url>   -----> 로컬 저장소에 있는 파일들을 등
 ### 4. rm     
 git과 로컬 디렉토리에서 파일을 모두 삭제할 때 쓰인다.     
 사용 방법     
-git rm <파일명>   ---> remote repository와 로컬 디렉토리에서 파일을 모두 삭제한다.       
+git rm [파일명]   -----> remote repository와 로컬 디렉토리에서 파일을 모두 삭제한다.       
 <img width="583" alt="rm_1" src="https://user-images.githubusercontent.com/62292136/79073048-45661e80-7d1f-11ea-9486-6a1cf01f5a8a.PNG">     
      
 <img width="945" alt="rm_2" src="https://user-images.githubusercontent.com/62292136/79073049-47c87880-7d1f-11ea-9a9b-2e7d709127a9.PNG">     
      
-git rm --cached <파일명> ---> remote repository에 있는 파일만 삭제하고 로컬 디렉토리에서 파일은 삭제하지 않는다.     
+git rm --cached [파일명] -----> remote repository에 있는 파일만 삭제하고 로컬 디렉토리에서 파일은 삭제하지 않는다.     
 <img width="946" alt="rm--cached" src="https://user-images.githubusercontent.com/62292136/79073086-80685200-7d1f-11ea-9d06-34b54b0e0c2c.PNG">     
 <img width="645" alt="git_rm-cached3" src="https://user-images.githubusercontent.com/62292136/79073088-82caac00-7d1f-11ea-90e5-0df0ac76db5c.PNG">     
 <img width="610" alt="git_rm_cached4" src="https://user-images.githubusercontent.com/62292136/79073090-85c59c80-7d1f-11ea-98e0-aa79890c8a34.PNG">     
@@ -87,7 +87,7 @@ git rm --cached <파일명> ---> remote repository에 있는 파일만 삭제하
 ### 1. commit
 staging area에 파일들을 local repository에 등록할 때 쓰인다.     
 사용 방법     
-git commit -m "comment"     ----> -m "comment" 를 입력하면 commit할때 어떤 점이 변경되었는지 알수 있게 comment를 표시해준다.     
+git commit -m "comment"     -----> -m "comment" 를 입력하면 commit할때 어떤 점이 변경되었는지 알수 있게 comment를 표시해준다.     
      
      
      
@@ -100,14 +100,14 @@ working directory에서 수정한 파일내용을 가장 최근의 commit한 파
      
 ### 3. diff
 working directory에서 작업한 파일의 내용과 staging area에 있는 파일내용의 차이점을 보여줄 때 쓰인다.     
-git --oneline 을 통해 얻은 이때까지 commit했던 checksum값을 알아내서 commit했던 내용간의 차이점을 보여줄 때 쓰인다.     
+git --oneline 을 통해 얻은 이때까지 commit했던 기록들의 7자리 checksum값을 알아내서 commit했던 내용간의 차이점을 보여줄 때 쓰인다.     
 staging area에 있는 파일과 최근에 commit했던 파일들의 차이점을 보여줄 때 쓰인다.     
      
 사용 방법
 git diff                           -----> working directory에서 작업한 파일의 내용과 가장 최근에 commit한 파일내용의 차이점을 보여줌     
 <img width="296" alt="git_diff" src="https://user-images.githubusercontent.com/62292136/79073195-287e1b00-7d20-11ea-9e37-948e2ec8c99b.PNG">     
      
-git diff <checksum1> <checksum2>   -----> 이때까지 commit했던 내용들의 checksum을 입력해 내용간의 차이점을 보여줌     
+git diff [checksum1] [checksum2]   -----> 이때까지 commit했던 내용들의 checksum을 입력해 내용간의 차이점을 보여줌     
 <img width="625" alt="git_diff_2개" src="https://user-images.githubusercontent.com/62292136/79073217-4b103400-7d20-11ea-8a80-23f2d4ee8848.PNG">     
      
 <img width="945" height = "400" alt="git_diff_2r개_결과" src="https://user-images.githubusercontent.com/62292136/79073219-4e0b2480-7d20-11ea-88fb-2e5b5f8a5413.PNG">     
@@ -124,19 +124,19 @@ git diff --staged                  -----> staging area에 있는 파일내용과
 ### 1. log
 이때까지 commit했던 기록들을 보여준다.     
 사용 방법     
-git log ---> 이때까지 commit했던 기록들을 보여줌     
+git log -----> 이때까지 commit했던 기록들을 보여줌     
 <img width="481" alt="git_log" src="https://user-images.githubusercontent.com/62292136/79073370-22d50500-7d21-11ea-9b3e-35d9d6b0c659.PNG">     
      
-git log --oneline ---> 이때까지 commit했던 기록들을 각각 한 줄로 보여줌 (check sum 7자리까지만)   
+git log --oneline -----> 이때까지 commit했던 기록들을 각각 한 줄로 보여줌 (check sum 7자리까지만)   
 <img width="481" alt="gitlog_oneline" src="https://user-images.githubusercontent.com/62292136/79073383-32ece480-7d21-11ea-80fd-dbb395f1c5a1.PNG">     
      
-git log --pretty=oneline ---> 이때까지 commit했던 기록들을 각각 한줄로 보여줌 check sum 전체)     
+git log --pretty=oneline -----> 이때까지 commit했던 기록들을 각각 한줄로 보여줌 check sum 전체)     
 <img width="484" alt="git_log--pretty=oneline" src="https://user-images.githubusercontent.com/62292136/79073386-35e7d500-7d21-11ea-8cac-4e261371a381.PNG">     
      
-git log --graph ---> 이때까지 commit했던 기록들을 그래프 형식으로 보여줌     
+git log --graph -----> 이때까지 commit했던 기록들을 그래프 형식으로 보여줌     
 <img width="484" alt="git_log--graph" src="https://user-images.githubusercontent.com/62292136/79073391-3da77980-7d21-11ea-833d-d88590b78a6e.PNG">     
      
-git log -p -1 ---> 가장 최근의 commit했던 파일의 내용 중 변경된 내용을 보여줌     
+git log -p -1 -----> 가장 최근의 commit했던 파일의 내용 중 변경된 내용을 보여줌     
 <img width="481" alt="git_log-p-1" src="https://user-images.githubusercontent.com/62292136/79073396-40a26a00-7d21-11ea-9700-6e651c3c237a.PNG">     
      
      
@@ -145,10 +145,10 @@ git log -p -1 ---> 가장 최근의 commit했던 파일의 내용 중 변경된 
 ### 2. status
 working directory의 상태를 표시해준다.     
 사용 방법     
-git status ---> working directory 상태 표시해줌     
+git status -----> working directory 상태 표시해줌     
 <img width="595" alt="git_status" src="https://user-images.githubusercontent.com/62292136/79073427-79dada00-7d21-11ea-892c-a15628442562.PNG">     
      
-git status -s ---> working directory 상태 한 줄로 간단히 표시해줌     
+git status -s -----> working directory 상태 한 줄로 간단히 표시해줌     
 <img width="594" alt="git_status -s" src="https://user-images.githubusercontent.com/62292136/79073429-7b0c0700-7d21-11ea-94d6-ea4d8216ed25.PNG">     
      
      
