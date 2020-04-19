@@ -153,7 +153,7 @@ n : /글자(단어) 입력일때는 아래쪽으로 ?글자(단어) 입력일때
      
 <img width="513" alt="n3" src="https://user-images.githubusercontent.com/62292136/77891457-f4304680-72ab-11ea-99e1-1da2f2b019be.PNG">     
      
-SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력일때는 위쪽으로 또 찾음 (원래 진행 반대방향)     
+SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력일때는 아래쪽으로 또 찾음 (원래 진행 반대방향)     
 <img width="511" alt="쉬프트n" src="https://user-images.githubusercontent.com/62292136/77891506-0611e980-72ac-11ea-91d1-bbe5b331d8e3.PNG">     
      
      
