@@ -160,7 +160,7 @@ SHIFT + n : /글자(단어) 입력일때는 위쪽으로 ?글자(단어) 입력�
      
      
 ### 1.10. 창 이동      
-사용 방법 : CTRL + ww
+사용 방법 : CTRL + ww     
 명령줄모드에서 명령으로 여러 파일의 에디터를 띄웠을때 작업커서를 다른 파일로 옮길 때 사용     
 <img width="514" alt="창이동1" src="https://user-images.githubusercontent.com/62292136/77886362-b16a7080-72a3-11ea-954a-ec1823f03fe5.PNG">     
      
