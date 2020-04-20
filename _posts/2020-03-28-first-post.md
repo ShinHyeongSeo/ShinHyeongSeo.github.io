@@ -108,8 +108,8 @@ cw : 현재 커서에서 단어의 끝까지 변경
 (실행하면 해당단어 삭제된 후 새로 입력 후 편집 모드로 변경)     
 <img width="482" alt="cw" src="https://user-images.githubusercontent.com/62292136/77892672-eda2ce80-72ad-11ea-834f-fbdd53db52fc.PNG">     
      
-c$ : 현재 커서가 포함되는 줄 전체를 변경     
-(실행하면 해당 줄 전체 삭제 후 새로 입력 후 편집모드로 변경)     
+c$ : 현재 커서에서 해당 줄 끝까지를 변경     
+(실행하면 현재커서에서 해당줄 끝까지 삭제 후 새로 입력 후 편집모드로 변경)     
 <img width="483" alt="c$" src="https://user-images.githubusercontent.com/62292136/77892679-ef6c9200-72ad-11ea-8b9b-a21f80bf0854.PNG">     
      
      
