@@ -16,9 +16,9 @@ categories: Linux OSS Git cowork
      
      
 ### 2. merge
-현재 작업하고 있는 branch에 다른 branch를 통합한다.     
+현재 작업하고 있는 branch에 다른 branch를 통합시킨다.     
 이 명령을 사용할 때는 현재 위치하고 있는 branch를 주의해야한다.     
-사용 방법 : git merge [병합할 branch명]     
+사용 방법 : git merge [할 branch명]     
      
      
      
@@ -110,37 +110,51 @@ commit log 기록을 통해 commit이 되돌아 간 것을 확인
      
      
      
-### 1. 현재 디렉토리에 새로운 git repository를 생성하고 my.txt 파일을 만든 후 add commit을 통해 Version 1을 git repository에 등록한다.     
+### 1. Version1
+현재 디렉토리에 새로운 git repository를 생성하고     
+my.txt 파일을 만든 후 add commit을 통해 Version 1을 git repository에 등록한다.          
 <img width="482" alt="Version1" src="https://user-images.githubusercontent.com/62292136/80285015-1c9d4a80-875d-11ea-95b3-111c64b7294b.PNG">     
      
-### 2. my.txt 내용을 바꾼 후 add commit을 통해 Version 2를 git repository에 등록한다.     
+### 2. Version2
+my.txt 내용을 바꾼 후 add commit을 통해 Version 2를 git repository에 등록한다.          
 <img width="484" alt="Version2" src="https://user-images.githubusercontent.com/62292136/80285017-1d35e100-875d-11ea-9205-f7f7efcb005d.PNG">     
 <img width="482" alt="Version2_1" src="https://user-images.githubusercontent.com/62292136/80285018-1dce7780-875d-11ea-9094-8e9bac5010f7.PNG">     
      
-### 3. my.txt 내용을 바꾼 후 add commit을 통해 Version3를 git repository에 등록한다.     
+### 3. Version3
+my.txt 내용을 바꾼 후 add commit을 통해 Version3를 git repository에 등록한다.          
 <img width="484" alt="Version3" src="https://user-images.githubusercontent.com/62292136/80285020-1e670e00-875d-11ea-9c6f-7068cc2abdb5.PNG">     
 <img width="482" alt="Version3_1" src="https://user-images.githubusercontent.com/62292136/80285022-1e670e00-875d-11ea-822d-a103589827ce.PNG">     
      
-### 4. 새로운 branch second를 생성하고 작업공간을 이동한 후 my.txt 내용을 바꿔서 add commit을 통해 Version4를 git repository에 등록한다.   
+### 4. Version4
+새로운 branch second를 생성하고 작업공간을 이동한 후     
+my.txt 내용을 바꿔서 add commit을 통해 Version4를 git repository에 등록한다.   
 <img width="481" alt="Version4" src="https://user-images.githubusercontent.com/62292136/80285023-1effa480-875d-11ea-9809-3869c9ce0324.PNG">     
 <img width="482" alt="Version4_2" src="https://user-images.githubusercontent.com/62292136/80285026-1f983b00-875d-11ea-98b1-f0a1aadf2ded.PNG">     
 <img width="478" alt="Version4_1" src="https://user-images.githubusercontent.com/62292136/80285025-1effa480-875d-11ea-9f98-7e3d4a5f5833.PNG">     
      
-### 5. master branch로 작업공간을 이동한 후 my.txt 내용을 바꿔서 add commit을 통해 Version5를 git repository에 등록한다.     
+### 5. Version5
+master branch로 작업공간을 이동한 후     
+my.txt 내용을 바꿔서 add commit을 통해 Version5를 git repository에 등록한다.     
 <img width="483" alt="Version5" src="https://user-images.githubusercontent.com/62292136/80285027-2030d180-875d-11ea-9b56-75fd2ce145e7.PNG">     
 <img width="482" alt="Version5_1" src="https://user-images.githubusercontent.com/62292136/80285029-2030d180-875d-11ea-960e-029357519a09.PNG">     
 <img width="483" alt="Version5_2" src="https://user-images.githubusercontent.com/62292136/80285030-20c96800-875d-11ea-8f57-36c72249ee3a.PNG">     
      
-### 6. my.txt 내용을 바꾼 후 add commit을 통해 Version 6를 git repository에 등록한다.     
+### 6. Version6
+my.txt 내용을 바꾼 후 add commit을 통해 Version 6를 git repository에 등록한다.     
 <img width="481" alt="Version6" src="https://user-images.githubusercontent.com/62292136/80285031-2161fe80-875d-11ea-9413-0785c47011ff.PNG">     
 <img width="483" alt="Version6_1" src="https://user-images.githubusercontent.com/62292136/80285032-2161fe80-875d-11ea-92a6-966ecc1c767a.PNG">     
      
-### 7. second branch로 작업공간을 이동한 후 my.txt 내용을 바꿔서 add commit을 통해 Version7을 git repository에 등록한다.     
+### 7. Version7
+second branch로 작업공간을 이동한 후     
+my.txt 내용을 바꿔서 add commit을 통해 Version7을 git repository에 등록한다.     
 <img width="481" alt="Version7" src="https://user-images.githubusercontent.com/62292136/80285034-21fa9500-875d-11ea-8fa8-618c3ff75cc5.PNG">     
 <img width="481" alt="Version7_1" src="https://user-images.githubusercontent.com/62292136/80285035-21fa9500-875d-11ea-8bcb-5f83d5e48719.PNG">     
 <img width="481" alt="Version7_2" src="https://user-images.githubusercontent.com/62292136/80285037-22932b80-875d-11ea-92a8-0aa23e706948.PNG">     
      
-### 8. master branch로 작업공간을 이동한 후 second branch와 통합한 후 add commit을 통해 Version8을 git repository에 등록한다.         
+### 8. Version8
+master branch로 작업공간을 이동한 후     
+second branch를 master branch에 통합시킨 후     
+add commit을 통해 Version8을 git repository에 등록한다.         
      
 동시에 양쪽의 branch에서 똑같은 파일이 수정되어서 conflict가 발생한다.     
 <img width="481" alt="Version8" src="https://user-images.githubusercontent.com/62292136/80285038-232bc200-875d-11ea-9cf8-aa6f26ac9a9d.PNG">     
@@ -153,7 +167,8 @@ commit log 기록을 통해 commit이 되돌아 간 것을 확인
 add commit을 통해 Version 8을 git repository에 등록한다.     
 <img width="479" alt="Version8_4" src="https://user-images.githubusercontent.com/62292136/80285042-245cef00-875d-11ea-9244-b788f39b43c5.PNG">     
      
-### 9. my.txt 내용을 바꾼 후 add commit을 통해 Version 9를 git repository에 등록한다.     
+### 9. Version9
+my.txt 내용을 바꾼 후 add commit을 통해 Version 9를 git repository에 등록한다.     
 <img width="481" alt="Version9" src="https://user-images.githubusercontent.com/62292136/80285043-24f58580-875d-11ea-9fc2-fa4aa4b787ab.PNG">     
 <img width="480" alt="Version9_1" src="https://user-images.githubusercontent.com/62292136/80285044-24f58580-875d-11ea-89af-8fb97a2a8823.PNG">     
      
