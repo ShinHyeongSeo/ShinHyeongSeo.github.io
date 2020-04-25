@@ -40,13 +40,13 @@ categories: Linux OSS Git cowork
      
      
      
-현재 commit log     
+현재 commit log 확인 후 git revert HEAD를 통해 가장 최근의 commit으로 되돌림     
 <img width="480" alt="revert" src="https://user-images.githubusercontent.com/62292136/80284594-7a7c6300-875a-11ea-9a0c-261bed2b33ca.PNG">      
      
-git revert HEAD를 통해 가장 최근의 commit으로 되돌림     
+commit message 생성, 기본값은 "Revert '마지막commit message'"로 되어있음, 변경 가능     
 <img width="483" alt="revert_1" src="https://user-images.githubusercontent.com/62292136/80284596-7bad9000-875a-11ea-9887-04b9dc7354c3.PNG">     
      
-commit message 생성, 기본값은 "Revert '마지막commit message'"로 되어있음, 변경 가능       
+commit log 기록을 통해 commit이 되돌아 간 것을 확인     
 <img width="484" alt="revert_2" src="https://user-images.githubusercontent.com/62292136/80284597-7c462680-875a-11ea-90a9-9b0604d22f1e.PNG">     
      
 파일의 내용 또한 변경되어있음     
@@ -64,13 +64,13 @@ commit message 생성, 기본값은 "Revert '마지막commit message'"로 되어
      
      
      
-되돌아가고 싶은 commit의 checksum 입력
+되돌아가고 싶은 commit의 checksum 입력     
 <img width="481" alt="reset" src="https://user-images.githubusercontent.com/62292136/80284701-11491f80-875b-11ea-8e64-4751de857a17.PNG">     
    
-commit log 기록을 통해 commit 되돌아 간 것을 확인
+commit log 기록을 통해 commit이 되돌아 간 것을 확인     
 <img width="482" alt="reset_1" src="https://user-images.githubusercontent.com/62292136/80284702-11e1b600-875b-11ea-8631-26dfb525c6de.PNG">     
      
-파일의 내용은 바뀌지 않음
+파일의 내용은 바뀌지 않음     
 <img width="484" alt="reset_2" src="https://user-images.githubusercontent.com/62292136/80284703-127a4c80-875b-11ea-9b01-139e4a663523.PNG">     
      
      
