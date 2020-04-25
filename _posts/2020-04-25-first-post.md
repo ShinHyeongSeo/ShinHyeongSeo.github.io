@@ -82,20 +82,20 @@ commit log 기록을 통해 commit이 되돌아 간 것을 확인
 잠시 commit들의 base를 과거로 바꾼 다음 commit message를 수정한다.     
      
 사용 방법     
-rebase -i --root 입력
+rebase -i --root 입력     
 <img width="482" alt="rebase" src="https://user-images.githubusercontent.com/62292136/80284819-cc71b880-875b-11ea-8f8e-2f495164580e.PNG">      
      
-commit message를 수정할 commit의 pick을 reword로 교체
+commit message를 수정할 commit의 pick을 reword로 교체     
 <img width="481" alt="rebase_1" src="https://user-images.githubusercontent.com/62292136/80284820-cd0a4f00-875b-11ea-8477-c6dbbce2a41e.PNG">     
      
 <img width="483" alt="rebase_2" src="https://user-images.githubusercontent.com/62292136/80284821-cda2e580-875b-11ea-92ee-0a2a3247e40f.PNG">     
      
-commit message를 수정한 후 저장
+commit message를 수정한 후 저장     
 <img width="480" alt="rebase_3" src="https://user-images.githubusercontent.com/62292136/80284822-ce3b7c00-875b-11ea-9996-f984b0f87a9f.PNG">     
      
 <img width="481" alt="rebase_4" src="https://user-images.githubusercontent.com/62292136/80284824-ce3b7c00-875b-11ea-8d6a-993e25269398.PNG">     
      
-git log로 변경된 사항 확인
+git log로 변경된 사항 확인     
 <img width="481" alt="rebase_5" src="https://user-images.githubusercontent.com/62292136/80284826-ced41280-875b-11ea-8d1f-7170f1343b74.PNG">     
      
           
