@@ -78,7 +78,8 @@ commit log 기록을 통해 commit이 되돌아 간 것을 확인
      
 
 ### 3. rebase   
-예전 commit의 commit message를 바꿀 때 사용한다. 잠시 commit들의 base를 과거로 바꾼 다음 commit message를 수정한다.
+예전 commit의 commit message를 바꿀 때 사용한다.     
+잠시 commit들의 base를 과거로 바꾼 다음 commit message를 수정한다.     
      
 사용 방법     
 1. rebase -i --root 입력
