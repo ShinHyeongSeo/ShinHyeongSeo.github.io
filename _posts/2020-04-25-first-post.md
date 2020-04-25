@@ -18,7 +18,7 @@ categories: Linux OSS Git cowork
 ### 2. merge
 현재 작업하고 있는 branch에 다른 branch를 통합시킨다.     
 이 명령을 사용할 때는 현재 위치하고 있는 branch를 주의해야한다.     
-사용 방법 : git merge [할 branch명]     
+사용 방법 : git merge [통합할 branch명]     
      
      
      
