@@ -10,25 +10,32 @@ categories: Linux Utility OSS
 ## 1. ifconfig
 리눅스 네트워크 인터페이스 설정 및 확인하는 명령어     
        
-### ifconfig : 현재 활성화된 모든 네트워크 인터페이스의 정보 출력 (활성화되어있지 않은 네트워크 인터페이스의 정보는 출력 X)          
+### ifconfig
+: 현재 활성화된 모든 네트워크 인터페이스의 정보 출력한다. (활성화되어있지 않은 네트워크 인터페이스의 정보는 출력 X)          
 <사진>    
      
-### ifconfig -a : 활성화되어있지 않은 네트워크 인터페이스를 포함한 모든 네트워크 인터페이스의 정보 출력     
+### ifconfig -a
+: 활성화되어있지 않은 네트워크 인터페이스를 포함한 모든 네트워크 인터페이스의 정보 출력한다.     
 <사진>     
      
-### ifconfig [인터페이스명] : 입력한 네트워크 인터페이스의 정보만 출력     
+### ifconfig [인터페이스명]
+: 입력한 네트워크 인터페이스의 정보만 출력한다.          
 <사진>     
      
-### ifconfig [인터페이스명] [Up/Down] : 입력한 네트워크 인터페이스를 활성화/비활성화     
+### ifconfig [인터페이스명] [Up/Down]
+: 입력한 네트워크 인터페이스를 활성화/비활성화한다.     
 <사진>     
      
-### ifconfig [인터페이스명] [IP 주소] : 입력한 네트워크 인터페이스의 IP주소를 설정한다.          
+### ifconfig [인터페이스명] [IP 주소]
+: 입력한 네트워크 인터페이스의 IP주소를 설정한다.          
 <사진>     
      
-### ifconifg [인터페이스명] netmask [subnetmask 값] : 입력한 네트워크 인터페이스의 subnetmask 값을 설정한다.     
+### ifconifg [인터페이스명] netmask [subnetmask 값]
+: 입력한 네트워크 인터페이스의 subnetmask 값을 설정한다.     
 <사진>     
      
-### ifconifg [인터페이스명] broadcast [broadcast 주소] : 입력한 네트워크 인터페이스의 broadcast 주소를 설정한다.     
+### ifconifg [인터페이스명] broadcast [broadcast 주소]
+: 입력한 네트워크 인터페이스의 broadcast 주소를 설정한다.     
 <사진>     
      
 ### ifconifg [인터페이스명] [IP 주소] netmask [subnetmask 값] broadcast [broadcast 주소]     
