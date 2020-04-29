@@ -47,6 +47,24 @@ categories: Linux Utility OSS
 
 ## 3. netstat
 ## 4. host
+host명을 통해서 정보를 조회할 때 사용하는 명령어     
+     
+### host [host명]
+간단하게 IP주소와 메일을 보여준다.     
+<사진>     
+     
+### host [-a] [host명]
+도메인 정보를 타입별로 자세하게 보여준다.     
+<사진>     
+     
+### host [-t] [타입] [host명]
+도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.     
+<사진>     
+     
+### host [-v] [host명]
+도메인 정보를 자세하게 출력한다.     
+<사진>     
+     
 ## 5. hostname
 ## 6. ethtool
 ## 7. traceroute      
