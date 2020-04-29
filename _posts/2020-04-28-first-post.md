@@ -9,7 +9,7 @@ categories: Linux Utility OSS
 # 1. Linux Utility
 
 ## 1. Network 관련 utility
-### 1. ipconfig
+### 1. ifconfig
 ### 2. ip 
 ### 3. netstat
 ### 4. host
