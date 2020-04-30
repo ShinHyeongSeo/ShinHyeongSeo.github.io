@@ -92,7 +92,20 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
 <사진>     
      
 ## 6. ethtool
-## 7. traceroute      
+## 7. traceroute
+입력한 Ip주소나 도메인명 까지의 네트워크 경로를 출력한다.     
+### traceroute [Ip주소] or [도메인명]
+<사진>     
+     
+### traceroute -m [홉의 수] [Ip주소] or [도메인명]
+최대 홉의 수를 지정해서 지정한 수의 홉만큼만 네트워크 경로를 출력한다.     
+<사진>     
+     
+### traceroute -V
+traceroute의 버전을 출력한다.     
+<사진>     
+     
+     
      
      
      
