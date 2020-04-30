@@ -93,7 +93,7 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
 ## 6. ethtool
 ## 7. traceroute
-입력한 Ip주소나 도메인명 까지의 네트워크 경로를 출력한다.     
+입력한 Ip주소나 도메인 까지의 네트워크 경로를 출력한다.     
 ### traceroute [Ip주소] or [도메인명]
 <사진>     
      
@@ -124,4 +124,25 @@ traceroute의 버전을 출력한다.
      
 # 2. Domain name 관련 utility
 ## 1. nslookup
+입력한 Ip주소나 도메인의 정보를 출력한다.     
+     
+### nslookup [Ip주소]
+입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.
+<사진>     
+     
+### nslookup [도메인명]
+입력한 도메인의 Ip주소를 출력한다.     
+<사진>     
+     
+### nslookup -type=a [도메인명]
+입력한 도메인의 Ip주소를 Ipv4형식으로 출력한다. (기본값)     
+### nslookup -type=aaaa [도메인명]
+입력한 도메인의 Ip주소를 Ipv6형식으로 출력한다.     
+### nslookup -type=MX [도메인명]
+입력한 도메인의 메일서버의 정보를 출력한다.     
+### nslookup -type=NS [도메인명]
+입력한 도메인의 네임서버의 정보를 출력한다.     
+### nslookup -type=SOA [도메인명]
+입력한 도메인의 마스터네임서버의 정보를 출력한다.     
+
 ## 2. ping
