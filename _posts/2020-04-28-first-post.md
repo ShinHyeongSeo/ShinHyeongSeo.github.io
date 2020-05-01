@@ -44,7 +44,14 @@ categories: Linux Utility OSS
      
      
 ## 2. ip
-
+ip주소를 설정하거나 ip주소의 정보를 조회한다.     
+     
+### ip addr show
+ip주소를 출력한다.     
+     
+### ip route show
+라우팅 정보를 출력한다.     
+     
 ## 3. netstat
 네트워크 연결상태, 라우팅 테이블, 인터페이스 상태를 출력한다.     
      
