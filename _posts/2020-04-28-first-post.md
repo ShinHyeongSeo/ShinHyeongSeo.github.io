@@ -134,23 +134,7 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
 traceroute의 버전을 출력한다.     
 <사진>     
      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+    
 # 2. Domain name 관련 utility
 ## 1. nslookup
 입력한 Ip주소나 도메인의 정보를 출력한다.     
