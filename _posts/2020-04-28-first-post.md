@@ -63,6 +63,9 @@ categories: Linux Utility OSS
 ### netstat -s
 네트워크 프로토콜 별 통계를 출력한다.     
      
+### netstat -V
+버전을 출력한다.     
+     
 
 ## 4. host
 host명을 통해서 정보를 조회할 때 사용하는 명령어     
