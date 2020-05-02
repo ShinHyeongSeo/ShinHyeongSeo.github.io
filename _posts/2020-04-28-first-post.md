@@ -60,6 +60,10 @@ ip주소를 출력한다.
      
 ## 3. netstat
 네트워크 연결상태, 라우팅 테이블, 인터페이스 상태를 출력한다.     
+<img width="949" alt="netstat_1" src="https://user-images.githubusercontent.com/62292136/80867059-13682c80-8ccd-11ea-835c-051aa8932800.PNG">     
+<img width="946" alt="netstat_2" src="https://user-images.githubusercontent.com/62292136/80867061-14995980-8ccd-11ea-909a-b6b6af017249.PNG">     
+<img width="947" alt="netstat_3" src="https://user-images.githubusercontent.com/62292136/80867062-1531f000-8ccd-11ea-911c-070b9061c1c9.PNG">     
+     
      
 ### netstat -a
 모든 네트워크의 상태를 출력한다.     
@@ -69,17 +73,27 @@ ip주소를 출력한다.
      
 ### netstat -i
 모든 네트워크의 상태를 인터페이스 별로 출력한다.     
+<img width="811" alt="netstat_i" src="https://user-images.githubusercontent.com/62292136/80867080-2d097400-8ccd-11ea-9503-015e00db10ef.PNG">     
+     
      
 ### netstat -r
 라우팅 테이블 정보를 출력한다.     
+<img width="781" alt="netstat_r" src="https://user-images.githubusercontent.com/62292136/80867091-372b7280-8ccd-11ea-846e-379ec9e1a7b5.PNG">     
+     
     
 ### netstat -s
 네트워크 프로토콜 별 통계를 출력한다.     
+<img width="948" alt="netstat_s_1" src="https://user-images.githubusercontent.com/62292136/80867096-414d7100-8ccd-11ea-837c-a95251cb8eea.PNG">     
+<img width="945" alt="netstat_s_2" src="https://user-images.githubusercontent.com/62292136/80867097-41e60780-8ccd-11ea-8cf2-7bc54cb8bbd0.PNG">     
+<img width="950" alt="netstat_s_3" src="https://user-images.githubusercontent.com/62292136/80867099-427e9e00-8ccd-11ea-8d20-8eff39dd8718.PNG">     
+     
      
 ### netstat -V
 버전을 출력한다.     
+<img width="848" alt="netstat_V" src="https://user-images.githubusercontent.com/62292136/80867105-4d393300-8ccd-11ea-8806-510089b03122.PNG">     
      
-
+     
+     
 ## 4. host
 host명을 통해서 정보를 조회할 때 사용하는 명령어     
      
