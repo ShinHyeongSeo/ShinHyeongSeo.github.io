@@ -50,9 +50,13 @@ ip주소를 설정하거나 ip주소의 정보를 조회한다.
      
 ### ip addr show
 ip주소를 출력한다.     
+<img width="779" alt="ip_addr_show" src="https://user-images.githubusercontent.com/62292136/80867029-f16eaa00-8ccc-11ea-8764-f7084ef5612d.PNG">     
+     
      
 ### ip route show
-라우팅 정보를 출력한다.     
+라우팅 정보를 출력한다.    
+<img width="685" alt="ip_route_show" src="https://user-images.githubusercontent.com/62292136/80867032-f29fd700-8ccc-11ea-85bc-cc786480a022.PNG">     
+     
      
 ## 3. netstat
 네트워크 연결상태, 라우팅 테이블, 인터페이스 상태를 출력한다.     
