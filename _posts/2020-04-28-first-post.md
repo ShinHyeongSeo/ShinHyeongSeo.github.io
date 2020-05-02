@@ -193,16 +193,27 @@ traceroute의 버전을 출력한다.
      
      
 ## 2. ping
-상대 호스트와의 연결 가능 여부를 출력한다.     
+상대 호스트와의 연결 가능 여부를 Ctrl+c가 입력될 때까지 출력한다.     
      
 ### ping [ip주소] or [도메인명]
 입력한 ip주소나 도메인으로 ping을 보낸다.     
+<img width="818" alt="ping_1" src="https://user-images.githubusercontent.com/62292136/80867435-e9176e80-8cce-11ea-8502-de240a6d9cee.PNG">     
+     
      
 ### ping -c [횟수] [ip주소] or [도메인명]
 입력한 ip주소나 도메인으로 ping을 입력한 횟수만큼 보낸다.     
+<img width="725" alt="ping_c" src="https://user-images.githubusercontent.com/62292136/80867436-e9b00500-8cce-11ea-9fee-b1034c932e47.PNG">     
+     
+<img width="706" alt="ping_c_2" src="https://user-images.githubusercontent.com/62292136/80867432-e74dab00-8cce-11ea-8545-876363aecc2b.PNG">     
+     
      
 ### ping -i [초] [ip주소] or [도메인명]
 입력한 ip주소나 도메인으로 ping을 입력한 초마다 새로 보낸다.     
+<img width="750" alt="ping_i" src="https://user-images.githubusercontent.com/62292136/80867433-e87ed800-8cce-11ea-89c8-48a13a45e4ee.PNG">      
+     
+<img width="645" alt="ping_i_2" src="https://user-images.githubusercontent.com/62292136/80867434-e9176e80-8cce-11ea-918c-a77645f5e3f2.PNG">     
+     
+     
      
      
 
