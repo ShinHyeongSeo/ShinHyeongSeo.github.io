@@ -55,7 +55,9 @@ ip주소를 출력한다.
      
 ### ip route show
 라우팅 정보를 출력한다.    
-<img width="685" alt="ip_route_show" src="https://user-images.githubusercontent.com/62292136/80867032-f29fd700-8ccc-11ea-85bc-cc786480a022.PNG">     
+<img width="679" alt="ip_route_show" src="https://user-images.githubusercontent.com/62292136/80867185-b456e780-8ccd-11ea-8190-8bbcc8504647.PNG">     
+     
+     
      
      
 ## 3. netstat
@@ -99,19 +101,22 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
 ### host [host명]
 간단하게 IP주소와 메일을 보여준다.     
-<사진>     
+<img width="723" alt="host" src="https://user-images.githubusercontent.com/62292136/80867148-870a3980-8ccd-11ea-88db-470563796969.PNG">       
+     
      
 ### host [-a] [host명]
 도메인 정보를 타입별로 자세하게 보여준다.     
-<사진>     
+<img width="946" alt="host_a" src="https://user-images.githubusercontent.com/62292136/80867150-883b6680-8ccd-11ea-9eab-8f8b43ab58fc.PNG">     
+     
      
 ### host [-t] [타입] [host명]
 도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.     
 <사진>     
      
 ### host [-v] [host명]
-도메인 정보를 자세하게 출력한다.     
-<사진>     
+도메인 정보를 자세하게 출력한다.    
+<img width="575" alt="host_V" src="https://user-images.githubusercontent.com/62292136/80867151-88d3fd00-8ccd-11ea-8ff0-4c06d6408842.PNG">     
+     
      
 ## 5. hostname
 시스템에 설정된 호스트명을 확인하거나 호스트명을 변경할 때 사용한다.     
