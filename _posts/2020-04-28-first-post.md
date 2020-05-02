@@ -12,7 +12,9 @@ categories: Linux Utility OSS
        
 ### ifconfig
 현재 활성화된 모든 네트워크 인터페이스의 정보 출력한다. (활성화되어있지 않은 네트워크 인터페이스의 정보는 출력 X)          
-<사진>    
+<img width="713" alt="ifconfig" src="https://user-images.githubusercontent.com/62292136/80867017-dbf98000-8ccc-11ea-86ac-b11bc1736ce5.PNG">     
+     
+     
      
 ### ifconfig -a
 활성화되어있지 않은 네트워크 인터페이스를 포함한 모든 네트워크 인터페이스의 정보 출력한다.     
@@ -136,6 +138,7 @@ traceroute의 버전을 출력한다.
      
     
 # 2. Domain name 관련 utility
+     
 ## 1. nslookup
 입력한 Ip주소나 도메인의 정보를 출력한다.     
      
@@ -149,15 +152,20 @@ traceroute의 버전을 출력한다.
      
 ### nslookup -type=a [도메인명]
 입력한 도메인의 Ip주소를 Ipv4형식으로 출력한다. (기본값)     
+     
 ### nslookup -type=aaaa [도메인명]
 입력한 도메인의 Ip주소를 Ipv6형식으로 출력한다.     
+     
 ### nslookup -type=MX [도메인명]
 입력한 도메인의 메일서버의 정보를 출력한다.     
+     
 ### nslookup -type=NS [도메인명]
 입력한 도메인의 네임서버의 정보를 출력한다.     
+     
 ### nslookup -type=SOA [도메인명]
-입력한 도메인의 마스터네임서버의 정보를 출력한다.     
-
+입력한 도메인의 마스터네임서버의 정보를 출력한다.  
+     
+     
 ## 2. ping
 상대 호스트와의 연결 가능 여부를 출력한다.     
      
