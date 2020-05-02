@@ -113,8 +113,8 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
 도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.     
 <사진>     
      
-### host [-v] [host명]
-도메인 정보를 자세하게 출력한다.    
+### host [-V] [host명]
+호스트의 버전을 출력한다.    
 <img width="575" alt="host_V" src="https://user-images.githubusercontent.com/62292136/80867151-88d3fd00-8ccd-11ea-8ff0-4c06d6408842.PNG">     
      
      
@@ -123,7 +123,8 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
 ### hostname
 호스트명을 출력한다.     
-<사진>     
+<img width="487" alt="hostname" src="https://user-images.githubusercontent.com/62292136/80867213-e8caa380-8ccd-11ea-8187-644d1ee9cdcf.PNG">     
+     
      
 ### hostname -a
 호스트명의 별칭을 출력한다.     
@@ -139,11 +140,13 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
 ### hostname -i
 호스트명에 설정된 ip주소를 출력한다.     
-<사진>     
+<img width="484" alt="hostname_i" src="https://user-images.githubusercontent.com/62292136/80867214-e9fbd080-8ccd-11ea-8745-26953839cf3c.PNG">      
+     
      
 ### hostname -V
 호스트명의 버전을 출력한다.     
-<사진>     
+<img width="484" alt="hostname_V" src="https://user-images.githubusercontent.com/62292136/80867215-e9fbd080-8ccd-11ea-954d-20ef321e7f0b.PNG">     
+     
      
 ## 6. ethtool
 ## 7. traceroute
