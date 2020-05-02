@@ -30,7 +30,6 @@ categories: Linux Utility OSS
      
 ### 6) ifconifg [인터페이스명] netmask [subnetmask 값]
 입력한 네트워크 인터페이스의 subnetmask 값을 설정한다.     
-<사진>     
      
 ### 7) ifconifg [인터페이스명] broadcast [broadcast 주소]
 입력한 네트워크 인터페이스의 broadcast 주소를 설정한다.     
@@ -105,7 +104,6 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
 ### 3) host [-t] [타입] [host명]
 도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.     
-<사진>     
      
 ### 4) host [-V] [host명]
 호스트의 버전을 출력한다.    
@@ -121,16 +119,13 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
      
 ### 2) hostname -a
-호스트명의 별칭을 출력한다.     
-<사진>     
+호스트명의 별칭을 출력한다.      
      
 ### 3) hostname -d
 호스트명의 도메인명을 출력한다.     
-<사진>     
      
 ### 4) hostname -f
 호스트명의 풀네임을 출력한다.     
-<사진>     
      
 ### 5) hostname -i
 호스트명에 설정된 ip주소를 출력한다.     
@@ -162,11 +157,9 @@ traceroute의 버전을 출력한다.
      
 ### 1) nslookup [Ip주소]
 입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.
-<사진>     
      
 ### 2) nslookup [도메인명]
 입력한 도메인의 Ip주소를 출력한다.     
-<사진>     
      
 ### 3) nslookup -type=a [도메인명]
 입력한 도메인의 Ip주소를 Ipv4형식으로 출력한다. (기본값)     
