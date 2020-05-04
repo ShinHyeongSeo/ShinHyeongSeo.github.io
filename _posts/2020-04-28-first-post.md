@@ -142,14 +142,20 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
 입력한 Ip주소나 도메인 까지의 네트워크 경로를 출력한다.     
      
 ### 1) traceroute [Ip주소] or [도메인명]   
+<img width="748" alt="traceroute" src="https://user-images.githubusercontent.com/62292136/80966797-2b1bee00-8e50-11ea-8470-a31d26943fd8.PNG">      
+     
      
 ### 2) traceroute -m [홉의 수] [Ip주소] or [도메인명]
-최대 홉의 수를 지정해서 지정한 수의 홉만큼만 네트워크 경로를 출력한다.         
+최대 홉의 수를 지정해서 지정한 수의 홉만큼만 네트워크 경로를 출력한다.      
+<img width="743" alt="traceroute_m" src="https://user-images.githubusercontent.com/62292136/80966798-2c4d1b00-8e50-11ea-9a42-4876cc3c4748.PNG">     
+     
      
 ### 3) traceroute -V
 traceroute의 버전을 출력한다.     
+<img width="560" alt="traceroute_V" src="https://user-images.githubusercontent.com/62292136/80966800-2ce5b180-8e50-11ea-9949-ce9b49b75571.PNG">     
      
-    
+     
+     
 # 2. Domain name 관련 utility
      
 ## 1. nslookup
