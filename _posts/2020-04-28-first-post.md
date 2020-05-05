@@ -162,25 +162,37 @@ traceroute의 버전을 출력한다.
 입력한 Ip주소나 도메인의 정보를 출력한다.     
      
 ### 1) nslookup [Ip주소]
-입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.
+입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.     
+
      
 ### 2) nslookup [도메인명]
 입력한 도메인의 Ip주소를 출력한다.     
+<img width="481" alt="nslookup" src="https://user-images.githubusercontent.com/62292136/81075816-cb901200-8f25-11ea-9fec-7644c1ed0b0d.PNG">
      
 ### 3) nslookup -type=a [도메인명]
 입력한 도메인의 Ip주소를 Ipv4형식으로 출력한다. (기본값)     
+<img width="465" alt="nslookup_type_a" src="https://user-images.githubusercontent.com/62292136/81075820-ccc13f00-8f25-11ea-8169-1631ac720053.PNG">     
+     
      
 ### 4) nslookup -type=aaaa [도메인명]
 입력한 도메인의 Ip주소를 Ipv6형식으로 출력한다.     
+<img width="627" alt="nslookup_type_aaaa" src="https://user-images.githubusercontent.com/62292136/81075821-ccc13f00-8f25-11ea-91fc-64e055ccc07e.PNG">     
+     
      
 ### 5) nslookup -type=MX [도메인명]
 입력한 도메인의 메일서버의 정보를 출력한다.     
+<img width="739" alt="nslookup_type_MX" src="https://user-images.githubusercontent.com/62292136/81075822-cd59d580-8f25-11ea-9aa3-d2e1da3996a5.PNG">    
+     
      
 ### 6) nslookup -type=NS [도메인명]
 입력한 도메인의 네임서버의 정보를 출력한다.     
+<img width="655" alt="nslookup_type_NS" src="https://user-images.githubusercontent.com/62292136/81075824-cd59d580-8f25-11ea-9d14-a36c48054932.PNG">     
+     
      
 ### 7) nslookup -type=SOA [도메인명]
-입력한 도메인의 마스터네임서버의 정보를 출력한다.  
+입력한 도메인의 마스터네임서버의 정보를 출력한다.     
+<img width="662" alt="nslookup_type_SOA" src="https://user-images.githubusercontent.com/62292136/81075825-cdf26c00-8f25-11ea-8a2b-e0737ccb0471.PNG">     
+     
      
      
 ## 2. ping
