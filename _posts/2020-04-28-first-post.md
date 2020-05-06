@@ -138,6 +138,10 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
      
 ## 6. ethtool
+<img width="681" alt="ethtool" src="https://user-images.githubusercontent.com/62292136/81187329-dd89b780-8fee-11ea-844d-6d30ab722070.PNG">     
+     
+     
+     
 ## 7. traceroute
 입력한 Ip주소나 도메인 까지의 네트워크 경로를 출력한다.     
      
