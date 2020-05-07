@@ -14,10 +14,7 @@ categories: Linux Utility OSS
 현재 활성화된 모든 네트워크 인터페이스의 정보 출력한다. (활성화되어있지 않은 네트워크 인터페이스의 정보는 출력 X)          
 <img width="713" alt="ifconfig" src="https://user-images.githubusercontent.com/62292136/80867017-dbf98000-8ccc-11ea-86ac-b11bc1736ce5.PNG">     
      
-     
-     
-### 2) ifconfig -a
-활성화되어있지 않은 네트워크 인터페이스를 포함한 모든 네트워크 인터페이스의 정보 출력한다.          
+               
      
 ### 3) ifconfig [인터페이스명]
 입력한 네트워크 인터페이스의 정보만 출력한다.          
@@ -59,24 +56,22 @@ ip주소를 출력한다.
 <img width="946" alt="netstat_2" src="https://user-images.githubusercontent.com/62292136/80867061-14995980-8ccd-11ea-909a-b6b6af017249.PNG">     
 <img width="947" alt="netstat_3" src="https://user-images.githubusercontent.com/62292136/80867062-1531f000-8ccd-11ea-911c-070b9061c1c9.PNG">     
      
+          
+### 1) netstat -c
+모든 네트워크의 상태를 매초마다 갱신하여 출력한다.    
+netstat을 입력했을 때의 화면이 매초마다 갱신된다.     
      
-### 1) netstat -a
-모든 네트워크의 상태를 출력한다.     
-     
-### 2) netstat -c
-모든 네트워크의 상태를 매초마다 갱신하여 출력한다.     
-     
-### 3) netstat -i
+### 2) netstat -i
 모든 네트워크의 상태를 인터페이스 별로 출력한다.     
 <img width="811" alt="netstat_i" src="https://user-images.githubusercontent.com/62292136/80867080-2d097400-8ccd-11ea-9503-015e00db10ef.PNG">     
      
      
-### 4) netstat -r
+### 3) netstat -r
 라우팅 테이블 정보를 출력한다.     
 <img width="781" alt="netstat_r" src="https://user-images.githubusercontent.com/62292136/80867091-372b7280-8ccd-11ea-846e-379ec9e1a7b5.PNG">     
      
     
-### 5) netstat -s
+### 4) netstat -s
 네트워크 프로토콜 별 통계를 출력한다.     
 <img width="948" alt="netstat_s_1" src="https://user-images.githubusercontent.com/62292136/80867096-414d7100-8ccd-11ea-837c-a95251cb8eea.PNG">     
 <img width="945" alt="netstat_s_2" src="https://user-images.githubusercontent.com/62292136/80867097-41e60780-8ccd-11ea-8cf2-7bc54cb8bbd0.PNG">     
@@ -84,7 +79,7 @@ ip주소를 출력한다.
      
      
 ### 6) netstat -V
-버전을 출력한다.     
+netstat의 버전을 출력한다.     
 <img width="848" alt="netstat_V" src="https://user-images.githubusercontent.com/62292136/80867105-4d393300-8ccd-11ea-8806-510089b03122.PNG">     
      
      
@@ -93,7 +88,7 @@ ip주소를 출력한다.
 host명을 통해서 정보를 조회할 때 사용하는 명령어     
      
 ### 1) host [host명]
-간단하게 IP주소와 메일을 보여준다.     
+간단하게 IP주소와 메일서버를 보여준다.     
 <img width="723" alt="host" src="https://user-images.githubusercontent.com/62292136/80867148-870a3980-8ccd-11ea-88db-470563796969.PNG">       
      
      
@@ -103,7 +98,17 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
      
      
 ### 3) host [-t] [타입] [host명]
-도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.     
+도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.   
+A : 도메인 IP주소     
+<img width="519" alt="host_t_A" src="https://user-images.githubusercontent.com/62292136/81295685-c230b200-90ab-11ea-97f8-f7469cc2da38.PNG">     
+     
+NS : 호스트 네임서버 호스트     
+<img width="513" alt="host_t_NS" src="https://user-images.githubusercontent.com/62292136/81295687-c361df00-90ab-11ea-9215-60023b872043.PNG">     
+     
+PTR : 도메인 네임 포인터     
+<img width="462" alt="host_t_PTR" src="https://user-images.githubusercontent.com/62292136/81295688-c361df00-90ab-11ea-8e83-5a37be0bc746.PNG">     
+     
+     
      
 ### 4) host [-V] [host명]
 호스트의 버전을 출력한다.    
@@ -118,24 +123,24 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
 <img width="487" alt="hostname" src="https://user-images.githubusercontent.com/62292136/80867213-e8caa380-8ccd-11ea-8187-644d1ee9cdcf.PNG">     
      
      
-### 2) hostname -a
-호스트명의 별칭을 출력한다.      
-     
-### 3) hostname -d
-호스트명의 도메인명을 출력한다.     
-     
-### 4) hostname -f
-호스트명의 풀네임을 출력한다.     
-     
-### 5) hostname -i
+### 2) hostname -i
 호스트명에 설정된 ip주소를 출력한다.     
 <img width="484" alt="hostname_i" src="https://user-images.githubusercontent.com/62292136/80867214-e9fbd080-8ccd-11ea-8745-26953839cf3c.PNG">      
      
-     
-### 6) hostname -V
+          
+### 3) hostname -V
 호스트명의 버전을 출력한다.     
 <img width="484" alt="hostname_V" src="https://user-images.githubusercontent.com/62292136/80867215-e9fbd080-8ccd-11ea-954d-20ef321e7f0b.PNG">     
      
+     
+### 4) hostname -a
+호스트명의 별칭을 출력한다.      
+     
+### 5) hostname -d
+호스트명의 도메인명을 출력한다.     
+     
+### 6) hostname -f
+호스트명의 풀네임을 출력한다.     
      
 ## 6. ethtool
 <img width="681" alt="ethtool" src="https://user-images.githubusercontent.com/62292136/81187329-dd89b780-8fee-11ea-844d-6d30ab722070.PNG">     
@@ -166,8 +171,9 @@ traceroute의 버전을 출력한다.
 입력한 Ip주소나 도메인의 정보를 출력한다.     
      
 ### 1) nslookup [Ip주소]
-입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.     
-
+입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.    
+<img width="622" alt="nslookup_IP주소" src="https://user-images.githubusercontent.com/62292136/81295993-33706500-90ac-11ea-9822-a996cb811071.PNG">     
+     
      
 ### 2) nslookup [도메인명]
 입력한 도메인의 Ip주소를 출력한다.     
