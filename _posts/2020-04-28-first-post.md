@@ -17,7 +17,10 @@ categories: Linux Utility OSS
                
      
 ### 3) ifconfig [인터페이스명]
-입력한 네트워크 인터페이스의 정보만 출력한다.          
+입력한 네트워크 인터페이스의 정보만 출력한다.         
+<img width="662" alt="ifconfig_인터페이스" src="https://user-images.githubusercontent.com/62292136/81296269-9bbf4680-90ac-11ea-9f80-23e6d4549acf.PNG">     
+     
+     
      
 ### 4) ifconfig [인터페이스명] [Up/Down]
 입력한 네트워크 인터페이스를 활성화/비활성화한다.     
@@ -97,6 +100,7 @@ host명을 통해서 정보를 조회할 때 사용하는 명령어
 <img width="946" alt="host_a" src="https://user-images.githubusercontent.com/62292136/80867150-883b6680-8ccd-11ea-9eab-8f8b43ab58fc.PNG">     
      
      
+     
 ### 3) host [-t] [타입] [host명]
 도메인 정보를 입력한 타입에 따라서 해당하는 정보만 보여준다.   
 A : 도메인 IP주소     
@@ -112,7 +116,7 @@ PTR : 도메인 네임 포인터
      
 ### 4) host [-V] [host명]
 호스트의 버전을 출력한다.    
-<img width="575" alt="host_V" src="https://user-images.githubusercontent.com/62292136/80867151-88d3fd00-8ccd-11ea-8ff0-4c06d6408842.PNG">     
+<img width="447" alt="host_V" src="https://user-images.githubusercontent.com/62292136/81296136-6c103e80-90ac-11ea-805d-94a0fcd613a5.PNG">      
      
      
 ## 5. hostname
@@ -143,7 +147,22 @@ PTR : 도메인 네임 포인터
 호스트명의 풀네임을 출력한다.     
      
 ## 6. ethtool
+네트워크 인터페이스의 정보를 출력, 설정, 관리하는 명령어이다.     
+
+### 1) ethtool [인터페이스명]
 <img width="681" alt="ethtool" src="https://user-images.githubusercontent.com/62292136/81187329-dd89b780-8fee-11ea-844d-6d30ab722070.PNG">     
+     
+     
+### 2) ethtool -S [인터페이스명]
+인터페이스 통계정보를 출력한다.     
+<img width="673" alt="ethtool_S_1" src="https://user-images.githubusercontent.com/62292136/81298785-3d946280-90b0-11ea-9bbb-69edbab3e43c.PNG">     
+     
+<img width="733" alt="ethtool_S_2" src="https://user-images.githubusercontent.com/62292136/81298788-3ec58f80-90b0-11ea-8c77-fb4a09ad5e2e.PNG">      
+     
+     
+### 3) ethtool -i [인터페이스명]
+인터페이스 드라이버 정보를 출력한다.     
+<img width="681" alt="ethtool" src="https://user-images.githubusercontent.com/62292136/81298653-0aea6a00-90b0-11ea-8869-e38a8ea7afd0.PNG">     
      
      
      
