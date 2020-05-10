@@ -17,20 +17,20 @@ categories: Git Cowork pull OSS
      
      
      
- # 실습 시나리오#
+ # 실습 시나리오 #
       
       
 1. 기존의 팀원과 함께 참여하고 있는 프로젝트가 들어있는 디렉토리로 이동한다. (이전에 fork와 clone을 마친상태)    
      
-2. 팀원의 프로젝트 github 주소를 복사하여 나의 Local Repository에 pull을 통해 합친다.   
-     * 예) git pull https://github.com/ShinHyeongSeo/project1     
+2. 팀원의 프로젝트 Remote Repository 주소를 복사하여 나의 Local Repository에 pull을 통해 합친다.   
+     * 예) git pull [팀원의 Remote Repository 주소]     
      
 3. 기존에 연결되어있는 Remote Repository와의 연결을 제거한다.     
-     * 나의 Remote Repository에 push 해야하기 때문에 기존의 연결을 제거한다.     
+     * 나의 Remote Repository에 push 해야하기 때문에 기존의 연결을 제거          
      예) git remote rm origin     
      
 4. 새롭게 나의 Remote Repository를 등록한다.     
-     예) git remote add origin [Remote Repository주소]     
+     예) git remote add origin [나의 Remote Repository주소]     
      
 5. 나의 Remote Repository로 push 한다.     
      예) git push -u origin master     
