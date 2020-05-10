@@ -24,11 +24,11 @@ setting 탭에 들어가 GitHub Page의 테마를 지정한다.
 아까 만들었던 파일에 내용을 작성한다.     
      
 ## 5. GitHub Page 방문
-만들어진 GitHub Page에 들어가 Page가 잘 만들어졌는지 확인한다.     
-     
-     
-     
-     
+만들어진 GitHub Page에 들어가 Page가 잘 만들어졌는지 확인한다.             
+            
+             
+             
+            
 # 실습을 통해 생성한 GitHub Page #
      
      
