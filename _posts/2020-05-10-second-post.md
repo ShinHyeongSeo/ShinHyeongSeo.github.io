@@ -33,7 +33,8 @@ setting 탭에 들어가 GitHub Page의 테마를 지정한다.
      
      
 주소 : ShinHyeongSeo.github.io/introduce_me     
-<img width="949" alt="깃허브페이지" src="https://user-images.githubusercontent.com/62292136/81502788-0a094080-931b-11ea-8b3f-06df36556575.PNG">     
+<img width="948" alt="깃허브페이지" src="https://user-images.githubusercontent.com/62292136/81502843-73894f00-931b-11ea-92ba-1cc178f3f1a1.PNG">      
+     
      
      
      
