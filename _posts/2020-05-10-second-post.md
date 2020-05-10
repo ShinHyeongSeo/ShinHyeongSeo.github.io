@@ -11,7 +11,8 @@ categories: GitHub Page OSS
      
      
 ## 1. Repository 생성
-자신의 GitHub 계정에 로그인한 후, GitHub Page로 사용할 Repository를 생성한다. (이름은 username.github.io로 지어주는 것이 좋다)     
+자신의 GitHub 계정에 로그인한 후, GitHub Page로 사용할 Repository를 생성한다.     
+(이름은 username.github.io로 지어주는 것이 좋다)     
 
 ## 2. 빈 파일 생성
 생성된 Repository에 빈 파일을 하나 생성한다.     
@@ -24,4 +25,20 @@ setting 탭에 들어가 GitHub Page의 테마를 지정한다.
      
 ## 5. GitHub Page 방문
 만들어진 GitHub Page에 들어가 Page가 잘 만들어졌는지 확인한다.     
+     
+     
+     
+     
+# 실습을 통해 생성한 GitHub Page #
+     
+     
+주소 : ShinHyeongSeo.github.io/introduce_me     
+<img width="949" alt="깃허브페이지" src="https://user-images.githubusercontent.com/62292136/81502788-0a094080-931b-11ea-8b3f-06df36556575.PNG">     
+     
+     
+     
+     
+     
+     
+     
      
