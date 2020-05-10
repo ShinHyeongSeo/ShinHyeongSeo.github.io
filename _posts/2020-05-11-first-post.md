@@ -38,19 +38,19 @@ categories: Git Cowork pull OSS
      
      
      
-3. 기존에 연결되어있는 Remote Repository와의 연결을 제거한다.     
-     * 나의 Remote Repository에 push 해야하기 때문에 기존의 연결을 제거          
-     예) git remote rm origin     
+3. 기존에 연결되어있는 Remote Repository와의 연결을 제거한다.      
+   (나의 Remote Repository에 push 되어야하기 때문)          
+     * 예) git remote rm origin     
      
      
      
 4. 새롭게 나의 Remote Repository를 등록한다.     
-     예) git remote add origin [나의 Remote Repository주소]     
+     * 예) git remote add origin [나의 Remote Repository주소]     
      
      
      
 5. 나의 Remote Repository로 push 한다.     
-     예) git push -u origin master     
+     * 예) git push -u origin master     
      
      
      
