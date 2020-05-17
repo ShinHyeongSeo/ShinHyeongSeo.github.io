@@ -9,8 +9,19 @@ categories: OSS Raspberrypi Web page Service
 
 ## 라즈베리파이 웹 서비스 세팅 실습 ##
 
-이 실습은 라즈베리파이에 OS가 설치되었다는 가정하에 진행하는 실습입니다.     
-     
+### 1. 라즈베리파이 세팅 ###
+
+1) 먼저 라즈베리파이에서 사용할 OS image file을 다운받습니다.     
+2) 라즈베리파이 Imager를 설치해줍니다.     
+3) 프로그램을 이용해 MicroSD memory를 포맷합니다.     
+4) 프로그램을 이용해 MicroSD memory에 OS image file을 설치합니다.     
+5) ssh 파일과 (wifi를 이용하는 경우) wpa_supplicant.conf 파일을 작성하여 MicroSD memory에 저장합니다.     
+6) MicroSD memory를 컴퓨터에서 분리해 라즈베리파이에 꽂아주고 전원을 켭니다.     
+      
+      
+      
+      
+ ### 2. 라즈베리파이를 통한 웹서비스 세팅 ###     
      
 1) 라즈베리파이의 IP주소 찾기     
      
