@@ -20,8 +20,7 @@ categories: OSS Raspberrypi Web page Service
       
       
       
-      
- ### 2. 라즈베리파이를 통한 웹서비스 세팅 ###     
+ ### 2. 라즈베리파이를 통한 웹서비스 세팅 ###
      
 1) 라즈베리파이의 IP주소 찾기     
      
