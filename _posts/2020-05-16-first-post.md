@@ -16,12 +16,12 @@ categories: OSS Raspberrypi Web page Service
 
 
 ## 라즈베리파이 웹 서비스 세팅 실습 ##
-         
-         
-         
-         
-         
-         
+<br/>         
+<br/>    
+<br/>    
+<br/>    
+<br/>    
+<br/>    
          
 ### 1. 라즈베리파이 세팅 ###
 
