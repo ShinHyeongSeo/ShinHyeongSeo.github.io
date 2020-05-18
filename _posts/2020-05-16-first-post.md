@@ -11,19 +11,29 @@ categories: OSS Raspberrypi Web page Service
 
 ### 1. 라즈베리파이 세팅 ###
 
-1) 먼저 라즈베리파이에서 사용할 OS image file을 다운받습니다.     
-https://downloads.raspberrypi.org/raspbian_full_latest에 가장 왼쪽파일 다운받기     
+1) 먼저 라즈베리파이에서 사용할 OS image file을 다운받습니다.        
+https://raspberrypi.org 사이트접속 -> Download 탭 -> Raspbian 선택 ->         
+Raspbian Buster with desktop and recommended software 다운로드     
+(로컬 디스크 C처럼 폴더가 한글명이 포함되지 않은 곳에 다운로드 하는 것을 추천)     
      
 2) 라즈베리파이 Imager를 설치해줍니다.     
-https://www.raspberrypi.org/downloads/에 접속해 운영체제에 맞는 Image설치하기     
+https://raspberrypi.org 사이트 접속 -> Download 탭 -> Raspberrypi Imager for(운영체제) 다운로드 후 설치     
+     
      
      
 3) 프로그램을 이용해 MicroSD memory를 포맷합니다.     
+Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Erase 선택 -> WRITE         
+
       
       
 4) 프로그램을 이용해 MicroSD memory에 OS image file을 설치합니다.     
+Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Use Custom 선택 ->
+다운로드 받은 OS Image 압축파일 선택 -> Write     
        
 5) ssh 파일과 (wifi를 이용하는 경우) wpa_supplicant.conf 파일을 작성하여 MicroSD memory에 저장합니다.     
+ssh 파일 : 이름이 ssh인 내용이 없는 파일 만들기     
+wpa_supplicant.conf 파일     
+     
       
 6) MicroSD memory를 컴퓨터에서 분리해 라즈베리파이에 꽂아주고 전원을 켭니다.       
       
