@@ -18,7 +18,7 @@ categories: OSS Raspberrypi Web page Service
 <br/>
 https://raspberrypi.org 사이트접속 -> Download 탭 -> Raspbian 선택     
 Raspbian Buster with desktop and recommended software 다운로드     
-(로컬 디스크 C처럼 폴더가 한글명이 포함되지 않은 곳에 다운로드 하는 것을 추천)  
+(로컬 디스크 C처럼 폴더가 한글명이 포함되지 않은 곳에 다운로드 하는 것을 추천)
 <br/>
 <img width="771" alt="이미지파일다운로드1" src="https://user-images.githubusercontent.com/62292136/82212139-072ad300-994d-11ea-9bc3-0753ee7c10a1.PNG">
 <br/>
@@ -29,7 +29,7 @@ Raspbian Buster with desktop and recommended software 다운로드
 2) 라즈베리파이 Imager를 설치해줍니다.
 <br/>
 https://raspberrypi.org 사이트 접속 -> Download 탭     
-Raspberrypi Imager for(운영체제) 다운로드 후 설치     
+Raspberrypi Imager for(운영체제) 다운로드 후 설치
 <br/>
 <img width="960" alt="imager다운로드" src="https://user-images.githubusercontent.com/62292136/82210885-d8abf880-994a-11ea-8d0b-befab51e37a3.PNG">      
 <br/>
@@ -37,14 +37,14 @@ Raspberrypi Imager for(운영체제) 다운로드 후 설치
 <br/>  
 3) 프로그램을 이용해 MicroSD memory를 포맷합니다.
 <br/>
-Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Erase 선택 -> WRITE       
+Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Erase 선택 -> WRITE   
 <br/>
 <br/>
 <br/>  
-4) 프로그램을 이용해 MicroSD memory에 OS image file을 설치합니다.     
+4) 프로그램을 이용해 MicroSD memory에 OS image file을 설치합니다. 
 <br/>
-Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Use Custom 선택     
-다운로드 받은 OS Image 압축파일 선택 -> Write     
+Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Use Custom 선택      
+다운로드 받은 OS Image 압축파일 선택 -> Write
 <br/>
 <br/>
 <br/>         
@@ -53,7 +53,7 @@ Raspberrypi Imager 실행 -> SD Card 선택 -> CHOOSE OS 탭에서 Use Custom �
 <br/>
 ssh 파일 : 이름이 ssh인 내용이 없는 파일 만들기
 <br/>
-wpa_supplicant.conf 파일 
+wpa_supplicant.conf 파일
 <br/>
 <img width="396" alt="wpa_supplicant파일" src="https://user-images.githubusercontent.com/62292136/82212135-05610f80-994d-11ea-87ed-112715d10489.PNG">
 <br/>
@@ -81,8 +81,8 @@ cmd에서 ping raspberrypi.local 명령어를 통해 찾기
 <br/>
 2) Putty를 통해 라즈베리파이를 ssh로 접속 후 로그인 
 <br/>
-username : pi
-password : raspberry 
+username : pi     
+password : raspberry     
 <br/>
 <img width="339" alt="putty" src="https://user-images.githubusercontent.com/62292136/82211034-258fcf00-994b-11ea-9e94-59ad504dfe9a.PNG"> 
 <br/>
