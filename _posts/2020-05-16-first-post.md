@@ -45,26 +45,37 @@ wpa_supplicant.conf 파일
 ### 2. 라즈베리파이를 통한 웹서비스 세팅 ###
      
 1) 라즈베리파이의 IP주소 찾기     
+cmd에서 ping raspberrypi.local 명령어를 통해 찾기     
+만약 안될 시, 공유기 관리자모드로 접속해 라즈베리파이 아이피를 찾는다.     
      
      
      
-2) Putty를 통해 라즈베리파이를 ssh로 로그인     
+2) Putty를 통해 라즈베리파이를 ssh로 접속 후 로그인     
+username : pi     
+password : raspberry     
      
      
      
-3) nginx 웹서버 설치     
+     
+3) nginx 웹서버 설치      
+sudo su - 명령어를 통해 슈퍼유저 되고난 후     
+apt-get update 명령어를 통해 라즈베리파이 최신 버전으로 업데이트 후     
+apt-get install nginx 명령어를 통해 nginx web server 설치     
+     
      
      
      
 4) 웹서비스 시작     
+service nginx start 명령어를 통해 웹서비스 시작 후 확인     
      
      
      
 5) 새로운 웹페이지 추가     
+/var/www/html 폴더로 이동 후 index.html 파일 생성 후 추가     
       
       
      
-     
+      
 6) 라즈베리파이 웹서버 페이지로 가서 확인     
      
      
