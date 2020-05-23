@@ -24,14 +24,21 @@ categories: OSS Raspberrypi Web Service Hosting
 <br/>
 <br/>
 
-* 1) ~ 4) 의 내용을 두 번 실행한 후 결과 확인 (사용자 계정 및 도메인 2개 생성)
+## 웹 서비스 호스팅 실습 결과 ##
+
+1) ~ 4) 의 내용을 두 번 실행한 후 결과 확인 (사용자 계정 및 도메인 2개 생성)
 <br/>
 <br/>
-첫 번째 세팅한 웹사이트
+첫 번째 세팅한 웹사이트     
+Server name : shinhyeongseo.com     
+Github Repository :  https://github.com/ShinHyeongSeo/Web-template      
+<br/>
+
 <br/>
 <br/>
-<br/>
-두 번째 세팅한 웹사이트
+두 번째 세팅한 웹사이트     
+Server name : kim.com
+Github Repository : https://github.com/ShinHyeongSeo/github-games      
 <br/>
 <br/>
 <br/>
