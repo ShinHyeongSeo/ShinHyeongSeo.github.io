@@ -39,6 +39,28 @@ hostname이 잘 변경되었는지 확인
 <br/>
 2) 사용자 계정 생성 및 도메인 이름 설정
 <br/>
+sudo su - 명령어를 통해 슈퍼유저 되고난 후,
+useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자 추가 및 비밀번호 생성 실행
+<br/>
+<img width="581" alt="사용자추가" src="https://user-images.githubusercontent.com/62292136/82733149-f6170300-9d4c-11ea-878f-3d4d0619b171.PNG">
+<br/>
+<br/>
+웹사이트 세팅파일 제작
+<br/>
+<img width="565" alt="웹사이트세팅파일제작" src="https://user-images.githubusercontent.com/62292136/82733233-72a9e180-9d4d-11ea-97cc-f7fc34c81ace.PNG">
+<br/>
+심볼릭 링크 제작
+<br/>
+<img width="715" alt="심볼릭링크생성" src="https://user-images.githubusercontent.com/62292136/82733252-966d2780-9d4d-11ea-928c-b72f766ad311.PNG">
+<br/>
+웹서비스 세팅 테스트 및 웹서비스 재시작
+<br/>
+<img width="448" alt="테스트" src="https://user-images.githubusercontent.com/62292136/82733273-b43a8c80-9d4d-11ea-97ce-21ba1c77754e.PNG">
+<br/>
+<img width="419" alt="재시작" src="https://user-images.githubusercontent.com/62292136/82733275-b7ce1380-9d4d-11ea-91e4-82ba04768d28.PNG">
+</br>
+</br>
+</br>
 3) 도메인 이름에 대한 nginx 가상호스트 설정
 <br/>
 4) 웹 브라우저에서 테스트
@@ -60,7 +82,7 @@ Github Repository :  https://github.com/ShinHyeongSeo/Web-template
 <br/>
 <br/>
 두 번째 세팅한 웹사이트     
-Server name : kim.com
+Server name : kim.com     
 Github Repository : https://github.com/ShinHyeongSeo/github-games      
 <br/>
 <br/>
