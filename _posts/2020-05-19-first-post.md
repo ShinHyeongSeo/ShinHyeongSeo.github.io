@@ -98,13 +98,14 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 첫 번째 세팅한 웹사이트     
 Server name : shinhyeongseo.com     
 Github Repository :  https://github.com/ShinHyeongSeo/Web-template      
+라즈베리파이 내 디렉토리 : /etc/nginx/site-available/shinhyeongseo.com
 <br/>
-
 <br/>
 <br/>
 두 번째 세팅한 웹사이트     
 Server name : kim.com     
-Github Repository : https://github.com/ShinHyeongSeo/github-games      
+Github Repository : https://github.com/ShinHyeongSeo/github-games     
+라즈베리파이 내 디렉토리 : /etc/nginx/site-available/kim.com      
 <br/>
 <br/>
 <br/>
