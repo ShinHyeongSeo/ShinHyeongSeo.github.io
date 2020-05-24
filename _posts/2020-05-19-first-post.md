@@ -13,6 +13,7 @@ categories: OSS Raspberrypi Web Service Hosting
 <br/>
 1) 라즈베리파이 hostname 바꾸기
 <br/>
+<br/>
 sudo su - 명령어를 통해 슈퍼유저 되고난 후     
 raspi-config 명령어를 통해 라즈베리파이 환경설정 탭에 진입
 <br/>
@@ -38,6 +39,7 @@ hostname이 잘 변경되었는지 확인
 <br/>
 2) 사용자 계정 생성 및 도메인 이름 설정
 <br/>
+<br/>
 sudo su - 명령어를 통해 슈퍼유저 되고난 후,      
 useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자 추가 및 비밀번호 생성 실행
 <br/>
@@ -50,7 +52,7 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 <br/>
 심볼릭 링크 제작
 <br/>
-<img width="715" alt="심볼릭링크생성" src="https://user-images.githubusercontent.com/62292136/82733252-966d2780-9d4d-11ea-928c-b72f766ad311.PNG">
+<img width="715" height="50" alt="심볼릭링크생성" src="https://user-images.githubusercontent.com/62292136/82733252-966d2780-9d4d-11ea-928c-b72f766ad311.PNG">
 <br/>
 웹서비스 세팅 테스트 및 웹서비스 재시작
 <br/>
@@ -61,6 +63,7 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 <br/>
 <br/>
 3) 도메인 이름에 대한 nginx 가상호스트 설정
+<br/>
 <br/>
 로컬PC의 hotst 파일에 부여받은 도메인과 IP주소를 추가
 <br/>
@@ -79,6 +82,7 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 <br/>
 <br/>
 4) 웹 브라우저에서 테스트
+<br/>
 <br/>
 <img width="960" alt="웹페이지테스트" src="https://user-images.githubusercontent.com/62292136/82748418-a54eeb00-9ddc-11ea-97c8-b8ee950ae4b0.PNG">
 <br/>
