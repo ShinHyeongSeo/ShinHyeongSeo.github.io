@@ -11,7 +11,6 @@ categories: OSS Raspberrypi Web Service Hosting
 ## 라즈베리파이 웹 서비스 호스팅 실습 ##
 <br/>
 <br/>
-<br/>
 1) 라즈베리파이 hostname 바꾸기
 <br/>
 sudo su - 명령어를 통해 슈퍼유저 되고난 후     
@@ -39,7 +38,7 @@ hostname이 잘 변경되었는지 확인
 <br/>
 2) 사용자 계정 생성 및 도메인 이름 설정
 <br/>
-sudo su - 명령어를 통해 슈퍼유저 되고난 후,
+sudo su - 명령어를 통해 슈퍼유저 되고난 후,      
 useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자 추가 및 비밀번호 생성 실행
 <br/>
 <img width="581" alt="사용자추가" src="https://user-images.githubusercontent.com/62292136/82733149-f6170300-9d4c-11ea-878f-3d4d0619b171.PNG">
@@ -55,22 +54,40 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 <br/>
 웹서비스 세팅 테스트 및 웹서비스 재시작
 <br/>
-<img width="448" alt="테스트" src="https://user-images.githubusercontent.com/62292136/82733273-b43a8c80-9d4d-11ea-97ce-21ba1c77754e.PNG">
+<img width="715" height="50" alt="테스트" src="https://user-images.githubusercontent.com/62292136/82733273-b43a8c80-9d4d-11ea-97ce-21ba1c77754e.PNG">
 <br/>
-<img width="419" alt="재시작" src="https://user-images.githubusercontent.com/62292136/82733275-b7ce1380-9d4d-11ea-91e4-82ba04768d28.PNG">
-</br>
-</br>
-</br>
+<img width="715" height="50" alt="재시작" src="https://user-images.githubusercontent.com/62292136/82733275-b7ce1380-9d4d-11ea-91e4-82ba04768d28.PNG">
+<br/>
+<br/>
+<br/>
 3) 도메인 이름에 대한 nginx 가상호스트 설정
+<br/>
+로컬PC의 hotst 파일에 부여받은 도메인과 IP주소를 추가
+<br/>
+<img width="516" alt="hosts파일12" src="https://user-images.githubusercontent.com/62292136/82748382-54d78d80-9ddc-11ea-9887-fad93cec4936.PNG">
+<br/>
+<br/>
+새롭게 생성된 사용자 계정으로 로그인
+<br/>
+<img width="579" alt="새계정로그인" src="https://user-images.githubusercontent.com/62292136/82748353-1641d300-9ddc-11ea-9f79-3697725bdc1b.PNG">
+<br/>
+<br/>
+간단한 웹페이지 만들어 추가하기
+<br/>
+<img width="445" alt="페이지만들기" src="https://user-images.githubusercontent.com/62292136/82748404-83556880-9ddc-11ea-8206-ce79184b8bf5.PNG">
+<br/>
+<br/>
 <br/>
 4) 웹 브라우저에서 테스트
 <br/>
+<img width="960" alt="웹페이지테스트" src="https://user-images.githubusercontent.com/62292136/82748418-a54eeb00-9ddc-11ea-97c8-b8ee950ae4b0.PNG">
 <br/>
 <br/>
 <br/>
-
+<br/>
 ## 웹 서비스 호스팅 실습 결과 ##
-
+<br/>
+<br/>
 1) ~ 4) 의 내용을 두 번 실행한 후 결과 확인 (사용자 계정 및 도메인 2개 생성)
 <br/>
 <br/>
