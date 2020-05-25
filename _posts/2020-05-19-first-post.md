@@ -52,7 +52,7 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 <br/>
 심볼릭 링크 제작
 <br/>
-<img width="715" height="50" alt="심볼릭링크생성" src="https://user-images.githubusercontent.com/62292136/82733252-966d2780-9d4d-11ea-928c-b72f766ad311.PNG">
+<img width="715" height="80" alt="심볼릭링크생성" src="https://user-images.githubusercontent.com/62292136/82733252-966d2780-9d4d-11ea-928c-b72f766ad311.PNG">
 <br/>
 웹서비스 세팅 테스트 및 웹서비스 재시작
 <br/>
@@ -100,6 +100,7 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 <br/>
 내용을 수정하고 add commit push를 통해 Github Repository에 commit 반영 확인
 <br/>
+<br/>
 첫 번째 세팅한 웹사이트     
 Server name : shinhyeongseo.com          
 Github Repository :  https://github.com/ShinHyeongSeo/Web-template      
@@ -107,23 +108,28 @@ Github Repository :  https://github.com/ShinHyeongSeo/Web-template
 <br/>
 <br/>
 <br/>
-Github Repository
-<br/>
-<br/>
 원래 웹사이트 캡처 이미지
 <br/>
 <br/>
-웹 사이트 내용 수정
+<img width="960" alt="웹템플릿" src="https://user-images.githubusercontent.com/62292136/82806697-4911c700-9ec1-11ea-99a9-d8b54dfcec98.PNG">
 <br/>
 <br/>
-add commit push
+웹 사이트 내용 수정 후 add commit push      
+<br/>
+<br/>
+<img width="675" alt="첫번째깃허브커밋" src="https://user-images.githubusercontent.com/62292136/82806813-8a09db80-9ec1-11ea-9c8c-fe4baca1d46d.PNG">
 <br/>
 <br/>
 Github Repository commit 반영 확인
 <br/>
 <br/>
-바뀐 웹사이트 캡처 이미지
+<img width="960" alt="첫번째깃허브페이지" src="https://user-images.githubusercontent.com/62292136/82806859-a0179c00-9ec1-11ea-8d05-c0c49ff7daf6.PNG">
 <br/>
+<br/>
+바뀐 웹사이트 캡처 이미지 (Our Team에서 Programmers로 수정)
+<br/>
+<br/>
+<img width="960" alt="웹페이지변경" src="https://user-images.githubusercontent.com/62292136/82806704-4adb8a80-9ec1-11ea-8385-ac95de72668d.PNG">
 <br/>
 <br/>
 <br/>
@@ -134,23 +140,28 @@ Github Repository : https://github.com/ShinHyeongSeo/github-games
 <br/>
 <br/>
 <br/>
-Github Repository
-<br/>
-<br/>
 원래 웹사이트 캡처 이미지
 <br/>
 <br/>
-웹 사이트 내용 수정
+<img width="960" alt="github-games" src="https://user-images.githubusercontent.com/62292136/82807363-92164b00-9ec2-11ea-9db4-df9ab6b913fd.PNG">
 <br/>
 <br/>
-add commit push
+웹 사이트 내용 수정 후 add commit push
+<br/>
+<br/>
+<img width="606" alt="내용바꿈" src="https://user-images.githubusercontent.com/62292136/82807009-ebca4580-9ec1-11ea-9a5e-2bedf9d5331c.PNG">
 <br/>
 <br/>
 Github Repository commit 반영 확인
 <br/>
 <br/>
-바뀐 웹사이트 캡처 이미지
+<img width="960" alt="두번째깃허브" src="https://user-images.githubusercontent.com/62292136/82807043-f84e9e00-9ec1-11ea-9fbe-026ae87d07db.PNG">
 <br/>
+<br/>
+바뀐 웹사이트 캡처 이미지 (웹사이트 타이틀을 Java Tetris 에서 Tetris Game으로 수정)
+<br/>
+<br/>
+<img width="960" alt="내용바꿈1" src="https://user-images.githubusercontent.com/62292136/82807100-19af8a00-9ec2-11ea-805c-8529a021e517.PNG">
 <br/>
 <br/>
 <br/>
