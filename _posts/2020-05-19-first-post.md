@@ -95,7 +95,8 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 2) ~ 4) 의 내용을 두 번 실행한 후 결과 확인 (사용자 계정 및 도메인 2개 생성)
 <br/>
 <br/>
-각 호스트의 웹페이지를 GitHub에서 적절한 웹사이트를 fork clone하여 제작
+각 호스트의 웹페이지를 GitHub에서 적절한 웹사이트를 fork 하고     
+사용자 계정으로 로그인해서 /home/계정이름/html 디렉토리에 clone하여 제작     
 <br/>
 <br/>
 내용을 수정하고 add commit push를 통해 Github Repository에 commit 반영 확인
