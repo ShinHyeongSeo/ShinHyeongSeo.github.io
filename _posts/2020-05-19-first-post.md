@@ -101,7 +101,7 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 내용을 수정하고 add commit push를 통해 Github Repository에 commit 반영 확인
 <br/>
 첫 번째 세팅한 웹사이트     
-Server name : shinhyeongseo.com     
+Server name : shinhyeongseo.com          
 Github Repository :  https://github.com/ShinHyeongSeo/Web-template      
 라즈베리파이 내 디렉토리 : /etc/nginx/sites-available/shinhyeongseo.com
 <br/>
@@ -127,8 +127,8 @@ Github Repository commit 반영 확인
 <br/>
 <br/>
 <br/>
-두 번째 세팅한 웹사이트     
-Server name : kim.com     
+두 번째 세팅한 웹사이트      
+Server name : kim.com        
 Github Repository : https://github.com/ShinHyeongSeo/github-games     
 라즈베리파이 내 디렉토리 : /etc/nginx/sites-available/kim.com      
 <br/>
