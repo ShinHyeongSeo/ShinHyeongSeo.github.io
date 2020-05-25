@@ -92,23 +92,64 @@ useradd -m "유저이름"과 passwd "유저이름" 명령어를 통해 사용자
 ## 웹 서비스 호스팅 실습 결과 ##
 <br/>
 <br/>
-1) ~ 4) 의 내용을 두 번 실행한 후 결과 확인 (사용자 계정 및 도메인 2개 생성)
+2) ~ 4) 의 내용을 두 번 실행한 후 결과 확인 (사용자 계정 및 도메인 2개 생성)
 <br/>
+<br/>
+각 호스트의 웹페이지를 GitHub에서 적절한 웹사이트를 fork clone하여 제작
+<br/>
+<br/>
+내용을 수정하고 add commit push를 통해 Github Repository에 commit 반영 확인
 <br/>
 첫 번째 세팅한 웹사이트     
 Server name : shinhyeongseo.com     
 Github Repository :  https://github.com/ShinHyeongSeo/Web-template      
-라즈베리파이 내 디렉토리 : /etc/nginx/site-available/shinhyeongseo.com
+라즈베리파이 내 디렉토리 : /etc/nginx/sites-available/shinhyeongseo.com
+<br/>
+<br/>
+<br/>
+Github Repository
+<br/>
+<br/>
+원래 웹사이트 캡처 이미지
+<br/>
+<br/>
+웹 사이트 내용 수정
+<br/>
+<br/>
+add commit push
+<br/>
+<br/>
+Github Repository commit 반영 확인
+<br/>
+<br/>
+바뀐 웹사이트 캡처 이미지
+<br/>
 <br/>
 <br/>
 <br/>
 두 번째 세팅한 웹사이트     
 Server name : kim.com     
 Github Repository : https://github.com/ShinHyeongSeo/github-games     
-라즈베리파이 내 디렉토리 : /etc/nginx/site-available/kim.com      
+라즈베리파이 내 디렉토리 : /etc/nginx/sites-available/kim.com      
 <br/>
 <br/>
 <br/>
+Github Repository
+<br/>
+<br/>
+원래 웹사이트 캡처 이미지
+<br/>
+<br/>
+웹 사이트 내용 수정
+<br/>
+<br/>
+add commit push
+<br/>
+<br/>
+Github Repository commit 반영 확인
+<br/>
+<br/>
+바뀐 웹사이트 캡처 이미지
 <br/>
 <br/>
 <br/>
