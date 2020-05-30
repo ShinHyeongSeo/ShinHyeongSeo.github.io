@@ -128,10 +128,13 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 <br/>
 <br/>
 <br/>
+7) 관리자 페이지에서 내용들을 적절히 변경한 후 잘 적용되었는지 확인한다.
 <br/>
 <br/>
 <br/>
-7)
+8) 이때까지 Github Blog 에서 관리하던 글들을 Batflat 블로그에 옮겨서 포스팅한다.
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
