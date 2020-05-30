@@ -118,7 +118,17 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 <br/>
 <br/>
 <br/>
-6)
+6) 블로그 관리자 페이지 들어가보기
+<br/>
+<br/>
+자신이 설정한 도메인 뒤에 /admin 을 붙이면 관리자 페이지로 들어갈 수 있다.
+<br/>
+<br/>
+초기 ID / PW 는 admin 이다.
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 7)
