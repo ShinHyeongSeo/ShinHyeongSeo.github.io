@@ -30,6 +30,9 @@ service nginx restart
 위의 명령어를 실행시켜서 nginx HTTP Server를 설치한다.
 <br/>
 <br/>
+<img width="581" alt="http_server설치1" src="https://user-images.githubusercontent.com/62292136/83344976-d1242080-a348-11ea-9a23-33817244422d.PNG">
+<br/>
+<br/>
 <br/>
 2) PHP 7.3과 관련된 모듈 설치
 <br/>
@@ -45,6 +48,13 @@ apt install php7.3-fpm php7.3-common php7.3-mbstring php7.3-xmlrpc php7.3-sqlite
 <br/>
 <br/>
 위의 명령들을 실행시켜서 PHP7.3과 관련 모듈을 설치한다.
+<br/>
+<br/>
+<br/>
+<img width="516" alt="http_server설치2" src="https://user-images.githubusercontent.com/62292136/83345022-3aa42f00-a349-11ea-940e-70dfafab84a6.PNG">
+<br/>
+<br/>
+<img width="534" alt="http_server설치4" src="https://user-images.githubusercontent.com/62292136/83345029-54de0d00-a349-11ea-98a3-91a1fcd4b6d3.PNG">
 <br/>
 <br/>
 <br/>
@@ -64,6 +74,10 @@ vi myblog.com 명령어를 통해 웹서비스 세팅파일을 작성한다.
 도큐먼트 홈 : /home/shinhyeongseo/html/blog
 <br/>
 <br/>
+<img width="522" alt="세팅파일" src="https://user-images.githubusercontent.com/62292136/83345034-73440880-a349-11ea-985d-920c763492b0.PNG">
+<br/>
+<br/>
+<br/>
 cd /etc/nginx/sites-enabled 명령어를 통해 해당 디렉토리로 이동한다.
 <br/>
 <br/>
@@ -80,6 +94,9 @@ service nginx restart
 <br/>
 <br/>
 윈도우의 경우 hosts파일을 수정해준다.
+<br/>
+<br/>
+<img width="568" alt="hosts파일" src="https://user-images.githubusercontent.com/62292136/83345046-848d1500-a349-11ea-8fc4-b858eb3297c1.PNG">
 <br/>
 <br/>
 <br/>
@@ -114,7 +131,20 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 <br/>
 <br/>
 <br/>
+<img width="747" alt="새계정로그인후_batflat다운로드1" src="https://user-images.githubusercontent.com/62292136/83345063-b1d9c300-a349-11ea-9e28-e132529886a1.PNG">
+<br/>
+<br/>
+<img width="607" alt="새계정로그인후_batflat다운로드2" src="https://user-images.githubusercontent.com/62292136/83345064-b30af000-a349-11ea-9261-30f86ff15518.PNG">
+<br/>
+<br/>
+<img width="629" alt="새계정로그인후_batflat다운로드3" src="https://user-images.githubusercontent.com/62292136/83345065-b3a38680-a349-11ea-936d-e099ba30fbb6.PNG">
+<br/>
+<br/>
+<br/>
 5) 블로그가 잘 세팅 되었는지 웹브라우저로 확인한다.
+<br/>
+<br/>
+<img width="960" alt="batflat블로그완성" src="https://user-images.githubusercontent.com/62292136/83345071-ccac3780-a349-11ea-995b-cf88a2951f5c.PNG">
 <br/>
 <br/>
 <br/>
@@ -125,6 +155,9 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 <br/>
 <br/>
 초기 ID / PW 는 admin 이다.
+<br/>
+<br/>
+<img width="960" alt="블로그관리자페이지" src="https://user-images.githubusercontent.com/62292136/83345075-e6e61580-a349-11ea-8fdf-f22d1f224f76.PNG">
 <br/>
 <br/>
 <br/>
