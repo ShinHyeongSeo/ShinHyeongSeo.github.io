@@ -171,6 +171,14 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 8) 이때까지 Github Blog 에서 관리하던 글들을 Batflat 블로그에 옮겨서 포스팅한다.
 <br/>
 <br/>
+자신의 Github 블로그를 제작하는 Github Repository로 이동한 후 옮기고 싶은 포스팅의 내용을 모두 복사한다.
+<br/>
+<br/>
+복사한 후 Batflat 블로그 관리자 페이지 --> Blog탭 --> Add New 탭으로 들어가서      
+Title에 포스트의 제목, 밑에 빈 칸에 복사했던 포스팅 내용을 붙여넣기 한다.     
+Status를 Published로 설정하고 아래에 Enabled Markdown 체크박스를 체크한다.     
+Save를 누르면 블로그에 글이 올라간다.     
+마지막으로 다시 블로그에 접속해서 확인한다.
 <br/>
 <br/>
 <br/>
