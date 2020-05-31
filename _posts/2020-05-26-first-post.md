@@ -164,6 +164,9 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 7) 관리자 페이지에서 내용들을 적절히 변경한 후 잘 적용되었는지 확인한다.
 <br/>
 <br/>
+<img width="960" alt="바뀐블로그" src="https://user-images.githubusercontent.com/62292136/83345232-b4d5b300-a34b-11ea-9d5e-b8c76b806c8b.PNG">
+<br/>
+<br/>
 <br/>
 8) 이때까지 Github Blog 에서 관리하던 글들을 Batflat 블로그에 옮겨서 포스팅한다.
 <br/>
