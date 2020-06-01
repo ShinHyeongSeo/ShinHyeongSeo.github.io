@@ -174,13 +174,37 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 자신의 Github 블로그를 제작하는 Github Repository로 이동한 후 옮기고 싶은 포스팅의 내용을 모두 복사한다.
 <br/>
 <br/>
+<img width="960" alt="블로그글옮기기1" src="https://user-images.githubusercontent.com/62292136/83386287-c25f6b80-a425-11ea-8c1f-0445ae307c0c.PNG">
+<br/>
+<br/>
+<br/>
 복사한 후 Batflat 블로그 관리자 페이지 --> Blog탭 --> Add New 탭으로 들어가서      
+<br/>
+<br/>
+<img width="960" alt="블로그글옮기기2" src="https://user-images.githubusercontent.com/62292136/83386290-c3909880-a425-11ea-8420-925873071b35.PNG">
+<br/>
+<br/>
+<br/>
 Title에 포스트의 제목, 밑에 빈 칸에 복사했던 포스팅 내용을 붙여넣기 한다.     
 Status를 Published로 설정하고 아래에 Enabled Markdown 체크박스를 체크한다.     
-Save를 누르면 블로그에 글이 올라간다.     
-마지막으로 다시 블로그에 접속해서 확인한다.
+Save를 누르면 블로그에 글이 올라간다.
 <br/>
 <br/>
+<img width="960" alt="블로그글옮기기3" src="https://user-images.githubusercontent.com/62292136/83386291-c4292f00-a425-11ea-961f-c4f79fd4e533.PNG">
+<br/>
+<br/>
+<br/>
+Blog탭 --> Manage 탭으로 들어가서 포스팅 목록에 올라갔는지 확인한다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_블로그2" src="https://user-images.githubusercontent.com/62292136/83386569-3863d280-a426-11ea-90a7-58882ee2b66f.PNG">
+<br/>
+<br/>
+<br/>
+마지막으로 다시 블로그에 접속해서 확인한다.     
+<br/>
+<br/>
+<img width="960" alt="블로그글옮기기4" src="https://user-images.githubusercontent.com/62292136/83386295-c4292f00-a425-11ea-94ce-ad512b5f579f.PNG">
 <br/>
 <br/>
 <br/>
