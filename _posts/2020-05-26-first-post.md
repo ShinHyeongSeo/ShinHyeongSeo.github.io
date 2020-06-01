@@ -247,7 +247,7 @@ Edit를 눌러서 수정할 수 있다.
 관리자 페이지에서 내용들을 적절히 변경한 후 잘 적용되었는지 확인한다.
 <br/>
 <br/>
-<img width="960" alt="바뀐블로그" src="https://user-images.githubusercontent.com/62292136/83345232-b4d5b300-a34b-11ea-9d5e-b8c76b806c8b.PNG">
+<img width="960" alt="바뀐블로그" src="https://user-images.githubusercontent.com/62292136/83391216-1d955c00-a42e-11ea-9156-647234384f9e.PNG">
 <br/>
 <br/>
 <br/>
