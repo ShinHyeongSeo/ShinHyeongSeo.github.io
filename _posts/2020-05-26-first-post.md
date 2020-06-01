@@ -148,7 +148,10 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 <br/>
 <br/>
 <br/>
-6) 블로그 관리자 페이지 들어가보기
+## Batflat 관리자 페이지 사용법 정리 ##
+<br/>
+<br/>
+1) 블로그 관리자 페이지 들어가기
 <br/>
 <br/>
 자신이 설정한 도메인 뒤에 /admin 을 붙이면 관리자 페이지로 들어갈 수 있다.
@@ -161,14 +164,94 @@ chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
 <br/>
 <br/>
 <br/>
-7) 관리자 페이지에서 내용들을 적절히 변경한 후 잘 적용되었는지 확인한다.
+관리자 페이지에 로그인해서 들어가면 이렇게 많은 메뉴들이 있다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지1" src="https://user-images.githubusercontent.com/62292136/83390135-47e61a00-a42c-11ea-874e-409b9d62ee7d.PNG">
+<br/>
+<br/>
+<br/>
+이 중 필요한 몇개의 메뉴의 사용법을 알아보도록 하자.
+<br/>
+<br/>
+<br/>
+1) Blog
+<br/>
+<br/>
+가장 기본적인 글을 포스팅하는 곳이다.     
+Manage 탭은 현재 포스팅 되어있는 글의 목록을 보여주고,
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_블로그2" src="https://user-images.githubusercontent.com/62292136/83390191-64825200-a42c-11ea-9ffd-297a204ef2ba.PNG">
+<br/>
+<br/>
+<br/>
+Add new는 새로운 글을 포스팅할 수 있는 곳이다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_블로그" src="https://user-images.githubusercontent.com/62292136/83390186-63512500-a42c-11ea-8caf-956a56c460f0.PNG">
+<br/>
+<br/>
+<br/>
+Setting 탭에서는 Blog이름, Description 등을 설정할 수 있다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_블로그3" src="https://user-images.githubusercontent.com/62292136/83390195-651ae880-a42c-11ea-97fe-0d9d4cdc99d6.PNG">
+<br/>
+<br/>
+<br/>
+2) Navigation
+<br/>
+<br/>
+블로그 우측 상단에 페이지를 전환할 수 있는 버튼의 목록을 만드는 곳이다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_네비게이션2" src="https://user-images.githubusercontent.com/62292136/83390354-a57a6680-a42c-11ea-9e66-73fb214eacbc.PNG">
+<br/>
+<br/>
+<br/>
+Edit를 눌러서 수정할 수 있다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_네비게이션" src="https://user-images.githubusercontent.com/62292136/83390352-a4493980-a42c-11ea-868d-218ad2224e44.PNG">
+<br/>
+<br/>
+<br/>
+3) User
+<br/>
+<br/>
+관리 정보를 수정할 수 있는 곳이다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_유저2" src="https://user-images.githubusercontent.com/62292136/83390424-c8a51600-a42c-11ea-981c-c0d5991e55a7.PNG">
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_유저" src="https://user-images.githubusercontent.com/62292136/83390422-c773e900-a42c-11ea-9eb7-b842b950abb5.PNG">
+<br/>
+<br/>
+<br/>
+4) Settings
+<br/>
+<br/>
+웹사이트 타이틀, Description, 시간, 사용언어, Editor     
+등을 수정할 수 있다.
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_세팅" src="https://user-images.githubusercontent.com/62292136/83390530-fab67800-a42c-11ea-8f03-223e701aed6c.PNG">
+<br/>
+<br/>
+<img width="960" alt="관리자페이지_세팅2" src="https://user-images.githubusercontent.com/62292136/83390533-fbe7a500-a42c-11ea-992c-6a07f8c83f4d.PNG">
+<br/>
+<br/>
+<br/>
+관리자 페이지에서 내용들을 적절히 변경한 후 잘 적용되었는지 확인한다.
 <br/>
 <br/>
 <img width="960" alt="바뀐블로그" src="https://user-images.githubusercontent.com/62292136/83345232-b4d5b300-a34b-11ea-9d5e-b8c76b806c8b.PNG">
 <br/>
 <br/>
 <br/>
-8) 이때까지 Github Blog 에서 관리하던 글들을 Batflat 블로그에 옮겨서 포스팅한다.
+## Github Blog 포스팅 Batflat Blog로 옮기기 ##
 <br/>
 <br/>
 자신의 Github 블로그를 제작하는 Github Repository로 이동한 후 옮기고 싶은 포스팅의 내용을 모두 복사한다.
@@ -213,51 +296,9 @@ Blog탭 --> Manage 탭으로 들어가서 포스팅 목록에 올라갔는지 �
 <br/>
 <br/>
 <br/>
-## Batflat 관리자 페이지 사용법 정리 ##
 <br/>
 <br/>
 <br/>
-관리자 페이지에 로그인해서 들어가면 이렇게 많은 메뉴들이 있다.
-<br/>
-<br/>
-<br/>
-<br/>
-이 중 필요한 몇개의 메뉴의 사용법을 알아보도록 하자.
-<br/>
-<br/>
-<br/>
-1) Blog
-<br/>
-<br/>
-가장 기본적인 글을 포스팅하는 곳이다.     
-Manage 탭은 현재 포스팅 되어있는 글의 목록을 보여주고,       
-Add new는 새로운 글을 포스팅할 수 있는 곳이다.     
-Setting 탭에서는 Blog이름, Description 등을 설정할 수 있다.
-<br/>
-<br/>
-<br/>
-2) Navigation
-<br/>
-<br/>
-블로그 우측 상단에 페이지를 전환할 수 있는 버튼의 목록을 만드는 곳이다.     
-Edit를 눌러서 수정할 수 있다.
-<br/>
-<br/>
-<br/>
-3) User
-<br/>
-<br/>
-관리 정보를 수정할 수 있는 곳이다.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-4) Settings
-<br/>
-<br/>
-웹사이트 타이틀, Description, 시간, 사용언어, Editor     
-등을 수정할 ㅅ 있다.
 <br/>
 <br/>
 <br/>
