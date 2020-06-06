@@ -60,7 +60,7 @@ sudo chmod -R 775 ~html/wordpress/wp-content
 명령어들을 통해 디렉토리의 권한을 변경한다.
 <br/>
 <br/>
-* 만약 sudo가 실행이 안된다면 구글링을 통해 sudoer 파일을 수정하면 된다.
+* 만약 sudo가 실행이 안된다면 구글링을 통해 sudoer 파일을 수정방법을 찾아보도록 하자!
 <br/>
 <br/>
 2) wp-config.php 파일 수정 
