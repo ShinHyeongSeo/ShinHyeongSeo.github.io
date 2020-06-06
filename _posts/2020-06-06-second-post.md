@@ -1,5 +1,5 @@
 ---
-title: "Worress 설치 실습"
+title: "Wordpress 설치 실습"
 date: 2020-06-06 23:13:28 -0000
 categories: OSS MariaDB MySQL Server WordPress Raspberrypi
 ---
