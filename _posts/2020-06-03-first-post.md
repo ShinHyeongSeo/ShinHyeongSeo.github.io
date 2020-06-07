@@ -40,8 +40,12 @@ cd /etc/mysql/mariadb.conf.d 명령어를 통해 해당 디렉토리로 이동�
 50-server.cnf 파일의 내용을 한국어 사용을 위해 알맞게 수정한다.
 <br/>
 <br/>
+변경 전
+<br/>
 <img width="332" alt="server conf변경전" src="https://user-images.githubusercontent.com/62292136/83960037-2c14c500-a8bf-11ea-8566-9aec93bb49c4.PNG">
 <br/>
+<br/>
+변경 후
 <br/>
 <img width="405" alt="server conf변경후" src="https://user-images.githubusercontent.com/62292136/83960038-2cad5b80-a8bf-11ea-9194-e432419bbf16.PNG">
 <br/>
@@ -75,8 +79,9 @@ service mysql restart 명령어를 통해 서버를 재시작한다.
 <br/>
 <br/>
 create database [사용할 DB이름] 명령어를 통해 DB를 생성하고      
-grant all privileges on [DB이름].* to '[DB접근 사용자명]'@'localhost' identifed by '[패스워드]'        
-flush privileges; 
+grant all privileges on [DB이름].* to '[DB접근 사용자명]'@'localhost' identifed by '[패스워드]';                 
+flush privileges;         
+명령어를 통해 사용자에 대한 DB접근 권한을 부여한다. 
 <br/>
 <br/>
 명령어를 통해 DB이름, DB접근 사용자명, 패스워드를 한세트로 새로운 DB를 생성한다.
@@ -88,7 +93,7 @@ flush privileges;
 생성된 DB를 테스트하기 위해 사용자 계정에서 접속해보자
 <br/>
 <br/>
-<img width="705" alt="새로운_db_생성" src="https://user-images.githubusercontent.com/62292136/83960532-9ed46f00-a8c4-11ea-9b16-0ae5419c8284.PNG">
+<img width="639" alt="userdb로_사용자변경" src="https://user-images.githubusercontent.com/62292136/83961308-c7f8fd80-a8cc-11ea-8612-d269a37641cb.PNG">
 <br/>
 <br/>
 확인해보니 성공적으로 접속 후 로그아웃까지 잘 되는 것을 확인할 수 있다.
@@ -145,7 +150,7 @@ flush privileges;
 7) 웹사이트 접속 테스트
 <br/>
 <br/>
-본인은 채팅사이트를 git clone 하여 동시에 두 페이지를 띄워서 테스트했다.
+본인은 간단한 채팅 웹사이트를 git clone 하여 동시에 두 페이지를 띄워서 테스트했다.
 <br/>
 <br/>
 <br/>
