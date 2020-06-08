@@ -91,6 +91,8 @@ tar -xzvf latest-ko_KR.tar.gz 명령어를 통해 압축 풀기를 실행 한다
 ## Wordpress 관리용 테마 설정 방법 ##
 <br/>
 <br/>
+Wordpress에서는 관리용 테마를 설정하기 위해 일련의 과정들이 필요하다.
+<br/>
 <br/>
 1) Wordpress 관리를 위해 디렉토리 권한 변경
 <br/>
@@ -99,6 +101,9 @@ tar -xzvf latest-ko_KR.tar.gz 명령어를 통해 압축 풀기를 실행 한다
 sudo chgrp -R www-data ~/html/wordpress/wp-content       
 sudo chmod -R 775 ~html/wordpress/wp-content     
 명령어들을 통해 디렉토리의 권한을 변경한다.
+<br/>
+<br/>
+<img width="662" alt="wordpress관리를위한디렉토리권한변경" src="https://user-images.githubusercontent.com/62292136/84026807-efcd8b80-a9c8-11ea-8765-8f93503f85a2.PNG">
 <br/>
 <br/>
 * 만약 sudo가 실행이 안된다면 구글링을 통해 sudoer 파일을 수정방법을 찾아보도록 하자!
@@ -113,8 +118,49 @@ sudo chmod -R 775 ~html/wordpress/wp-content
 wp-config.php 파일 마지막에 define('FS_METHOD', 'direct'); 명령 한줄을 추가한다.
 <br/>
 <br/>
+<img width="589" alt="관리자페이지에서직접설치하도록변경" src="https://user-images.githubusercontent.com/62292136/84026895-1390d180-a9c9-11ea-8f9e-fe8810d8d69d.PNG">
+<br/>
+<br/>
 3) wordpress 원하는 테마 다운로드 및 활성화
 <br/>
 <br/>
+원래 wordpress 사이트
 <br/>
 <br/>
+<img width="960" alt="원래페이지" src="https://user-images.githubusercontent.com/62292136/84027204-9154dd00-a9c9-11ea-9600-90bc5676c562.PNG">
+<br/>
+<br/>
+테마를 바꾸기 위해서 관리자 페이지로 접속해서     
+원하는 테마 디자인을 다운받고 활성화시킨다.
+<br/>
+<br/>
+<img width="960" alt="테마활성화1" src="https://user-images.githubusercontent.com/62292136/84027266-aaf62480-a9c9-11ea-8acd-b01b4b833805.PNG">
+<br/>
+<br/>
+Onepress 테마를 활성화시키고 바뀐 Wordpress에 다시 접속하면     
+테마가 바뀐 것을 확인할 수 있다.
+<br/>
+<br/>
+<img width="960" alt="테마활성화2" src="https://user-images.githubusercontent.com/62292136/84027329-c3663f00-a9c9-11ea-996f-1a7340a267d5.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
