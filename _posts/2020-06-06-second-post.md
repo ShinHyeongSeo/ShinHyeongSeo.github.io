@@ -71,17 +71,14 @@ tar -xzvf latest-ko_KR.tar.gz 명령어를 통해 압축 풀기를 실행 한다
 <img width="960" alt="wordpress접속4" src="https://user-images.githubusercontent.com/62292136/84026266-f6a7ce80-a9c7-11ea-9494-152d0741fd90.PNG">
 <br/>
 <br/>
-사이트 제목과 관리자 정보를 입력하면 된다.
+사이트 제목과 관리자 정보를 입력하고 나면 성공적으로 설치된 것을 확인할 수 있다.
+<br/>
+<br/>
+<img width="960" alt="wordpress접속5" src="https://user-images.githubusercontent.com/62292136/84026324-19d27e00-a9c8-11ea-923b-5c8cf4fe8978.PNG">
 <br/>
 <br/>
 <br/>
 6) 설치 완료 후 로그인 후 들어가기
-<br/>
-<br/>
-성공적으로 설치된 것을 확인한 후에
-<br/>
-<br/>
-<img width="960" alt="wordpress접속5" src="https://user-images.githubusercontent.com/62292136/84026324-19d27e00-a9c8-11ea-923b-5c8cf4fe8978.PNG">
 <br/>
 <br/>
 로그인을 해서 관리자 페이지로 들어가서 확인한다.
