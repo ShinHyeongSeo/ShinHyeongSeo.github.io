@@ -106,7 +106,7 @@ sudo chmod -R 775 ~html/wordpress/wp-content
 <img width="662" alt="wordpress관리를위한디렉토리권한변경" src="https://user-images.githubusercontent.com/62292136/84026807-efcd8b80-a9c8-11ea-8765-8f93503f85a2.PNG">
 <br/>
 <br/>
-* 만약 sudo가 실행이 안된다면 구글링을 통해 sudoer 파일을 수정방법을 찾아보도록 하자!
+만약 sudo가 실행이 안된다면 구글링을 통해 sudoer 파일을 수정방법을 찾아보도록 하자!
 <br/>
 <br/>
 2) wp-config.php 파일 수정 
