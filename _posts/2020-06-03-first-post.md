@@ -114,10 +114,13 @@ flush privileges;
 4) PHP+MySQL 사용하는 웹사이트 소스 git clone
 <br/>
 <br/>
-사용자 계정 내에 html 디렉토리에 사용할 웹사이트 소스를 clone 한다.
+Github에서 사용할 웹사이트 소스를 자신의 Remote Repository에 fork 한 후,
 <br/>
 <br/>
 <img width="960" alt="교수님깃허브" src="https://user-images.githubusercontent.com/62292136/83960892-07254f80-a8c9-11ea-983b-fa819180c307.PNG">
+<br/>
+<br/>
+사용자 계정 내에 html 디렉토리에 사용할 웹사이트 소스를 clone 한다.
 <br/>
 <br/>
 <img width="642" alt="깃클론" src="https://user-images.githubusercontent.com/62292136/83960893-08ef1300-a8c9-11ea-87ff-cda95390906d.PNG">
