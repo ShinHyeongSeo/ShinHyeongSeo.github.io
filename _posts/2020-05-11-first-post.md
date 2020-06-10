@@ -23,35 +23,64 @@ categories: Git Cowork pull OSS
         
         
 # 실습 시나리오 #
-      
-      
+<br/>
+<br/>
+<br/>   
 1. 기존의 팀원과 함께 참여하고 있는 프로젝트가 저장 되어있는 디렉토리로 이동한다.     
    (이전에 fork와 clone을 마친상태)    
-     
-     
-     
-2. 팀원의 프로젝트 Remote Repository 주소를 복사하여 나의 Local Repository에 pull을 통해 합친다.   
-     * 예) git pull [팀원의 Remote Repository 주소]     
-     
-     
-     
-3. 기존에 연결되어있는 Remote Repository와의 연결을 제거한다.      
-   (나의 Remote Repository에 push 되어야하기 때문)          
-     * 예) git remote rm origin     
-     
-     
-     
-4. 새롭게 나의 Remote Repository를 등록한다.     
-     * 예) git remote add origin [나의 Remote Repository주소]     
-     
-     
-     
-5. 나의 Remote Repository로 push 한다.     
-     * 예) git push -u origin master     
-     
-     
-     
-6. Remote Repository에 잘 push 되었는지 확인한 후, Pull Request를 보낸다.     
+<br/>
+<br/>
+<br/>
+2. 기존에 연결되어있던 나의 Remote Repository와의 연결을 제거한다.
+<br/>
+<br/>
+     * 예) git remote remove origin
+<br/>
+<br/>
+<br/>
+3. 팀원의 프로젝트 Remote Repository를 연결한다.
+<br/>
+<br/>
+     * 예) git remote add [팀원의 Remote Repository 주소]
+<br/>
+<br/>
+<br/>
+4. 변경된 사항을 pull을 통해 합친다.
+<br/>
+<br/>
+     * 예) git pull origin master
+<br/>
+<br/>
+<br/>
+3. 다시 Remote Repository와의 연결을 제거한다. (나의 Remote Repository에 push 되어야하기 때문)
+<br/>
+<br/>
+     * 예) git remote remove origin
+<br/>
+<br/>
+<br/>
+4. 새롭게 나의 Remote Repository를 연결한다.     
+     * 예) git remote add origin [나의 Remote Repository주소]
+<br/>
+<br/>
+<br/>
+5. 나의 Remote Repository로 push 한다.
+<br/>
+<br/>
+     * 예) git push -u origin master
+<br/>
+<br/>
+<br/>
+6. Remote Repository에 잘 push 되었는지 확인한 후, Pull Request를 보낸다.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
      
      
      
