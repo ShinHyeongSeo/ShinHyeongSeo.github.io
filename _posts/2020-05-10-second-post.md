@@ -26,15 +26,29 @@ setting 탭에 들어가 GitHub Page의 테마를 지정한다.
 ## 5. GitHub Page 방문
 만들어진 GitHub Page에 들어가 Page가 잘 만들어졌는지 확인한다.       
 GitHub Page주소는 setting 탭에서 확인할 수있다.     
-            
-             
-             
-            
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>            
 # 실습을 통해 생성한 GitHub Page #
-     
-     
+<br/>
+<br/>
+<br/>
 주소 : ShinHyeongSeo.github.io/introduce_me     
-<img width="948" alt="깃허브페이지" src="https://user-images.githubusercontent.com/62292136/81502843-73894f00-931b-11ea-92ba-1cc178f3f1a1.PNG">      
+<img width="948" alt="깃허브페이지" src="https://user-images.githubusercontent.com/62292136/81502843-73894f00-931b-11ea-92ba-1cc178f3f1a1.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
      
      
      
