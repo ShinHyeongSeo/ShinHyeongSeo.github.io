@@ -7,59 +7,91 @@ categories: Linux Utility OSS
      
 
 # 1. Network 관련 utility
+<br/>
+<br/>
+<br/>
 ## 1. ifconfig
 리눅스 네트워크 인터페이스 설정 및 확인하는 명령어     
-       
+<br/>
+<br/>
 ### 1) ifconfig
 현재 활성화된 모든 네트워크 인터페이스의 정보 출력한다. (활성화되어있지 않은 네트워크 인터페이스의 정보는 출력 X)          
 <img width="713" alt="ifconfig" src="https://user-images.githubusercontent.com/62292136/80867017-dbf98000-8ccc-11ea-86ac-b11bc1736ce5.PNG">     
-     
-               
-     
+ <br/>
+ <br/>
+ <br/>
+ <br/>
 ### 3) ifconfig [인터페이스명]
 입력한 네트워크 인터페이스의 정보만 출력한다.         
 <img width="662" alt="ifconfig_인터페이스" src="https://user-images.githubusercontent.com/62292136/81296269-9bbf4680-90ac-11ea-9f80-23e6d4549acf.PNG">     
-     
-     
-     
+ <br/>
+ <br/>
+ <br/>
+ <br/>
 ### 4) ifconfig [인터페이스명] [Up/Down]
 입력한 네트워크 인터페이스를 활성화/비활성화한다.     
-     
+ <br/>
+ <br/>
+ <br/>
+ <br/>
 ### 5) ifconfig [인터페이스명] [IP 주소]
 입력한 네트워크 인터페이스의 IP주소를 설정한다.          
-     
+<br/>
+<br/>
+<br/>
+<br/>
 ### 6) ifconifg [인터페이스명] netmask [subnetmask 값]
 입력한 네트워크 인터페이스의 subnetmask 값을 설정한다.     
-     
+<br/>
+<br/>
+<br/>
+<br/>
 ### 7) ifconifg [인터페이스명] broadcast [broadcast 주소]
 입력한 네트워크 인터페이스의 broadcast 주소를 설정한다.     
-     
+<br/>
+<br/>
+<br/>
+<br/>
 ### 8) ifconifg [인터페이스명] [IP 주소] netmask [subnetmask 값] broadcast [broadcast 주소]     
 입력한 네트워크 인터페이스의 IP주소와 subnetmask 값 broadcast 주소를 한꺼번에 설정한다.     
-     
-     
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>    
 ## 2. ip
-ip주소를 설정하거나 ip주소의 정보를 조회한다.     
-     
+ip주소를 설정하거나 ip주소의 정보를 조회한다.
+<br/>
+<br/>
+<br/>
 ### 1) ip addr show
 ip주소를 출력한다.     
-<img width="779" alt="ip_addr_show" src="https://user-images.githubusercontent.com/62292136/80867029-f16eaa00-8ccc-11ea-8764-f7084ef5612d.PNG">     
-     
-     
+<img width="779" alt="ip_addr_show" src="https://user-images.githubusercontent.com/62292136/80867029-f16eaa00-8ccc-11ea-8764-f7084ef5612d.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
 ### 2) ip route show
 라우팅 정보를 출력한다.    
-<img width="679" alt="ip_route_show" src="https://user-images.githubusercontent.com/62292136/80867185-b456e780-8ccd-11ea-8190-8bbcc8504647.PNG">     
-     
-     
-     
-     
+<img width="679" alt="ip_route_show" src="https://user-images.githubusercontent.com/62292136/80867185-b456e780-8ccd-11ea-8190-8bbcc8504647.PNG">  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ## 3. netstat
-네트워크 연결상태, 라우팅 테이블, 인터페이스 상태를 출력한다.     
+네트워크 연결상태, 라우팅 테이블, 인터페이스 상태를 출력한다.
+<br/>
+<br/>
 <img width="949" alt="netstat_1" src="https://user-images.githubusercontent.com/62292136/80867059-13682c80-8ccd-11ea-835c-051aa8932800.PNG">     
 <img width="946" alt="netstat_2" src="https://user-images.githubusercontent.com/62292136/80867061-14995980-8ccd-11ea-909a-b6b6af017249.PNG">     
-<img width="947" alt="netstat_3" src="https://user-images.githubusercontent.com/62292136/80867062-1531f000-8ccd-11ea-911c-070b9061c1c9.PNG">     
-     
-          
+<img width="947" alt="netstat_3" src="https://user-images.githubusercontent.com/62292136/80867062-1531f000-8ccd-11ea-911c-070b9061c1c9.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>     
 ### 1) netstat -c
 모든 네트워크의 상태를 매초마다 갱신하여 출력한다.    
 netstat을 입력했을 때의 화면이 매초마다 갱신된다.     
