@@ -280,65 +280,127 @@ traceroute의 버전을 출력한다.
 <br/>
 <br/>     
 # 2. Domain name 관련 utility
-     
+<br/>
+<br/>
+<br/>
+<br/>     
 ## 1. nslookup
-입력한 Ip주소나 도메인의 정보를 출력한다.     
-     
+입력한 Ip주소나 도메인의 정보를 출력한다.
+<br/>
+<br/>     
 ### 1) nslookup [Ip주소]
 입력한 Ip주소에 해당하는 도메인의 정보를 출력한다.    
-<img width="622" alt="nslookup_IP주소" src="https://user-images.githubusercontent.com/62292136/81295993-33706500-90ac-11ea-9822-a996cb811071.PNG">     
-     
-     
+<img width="622" alt="nslookup_IP주소" src="https://user-images.githubusercontent.com/62292136/81295993-33706500-90ac-11ea-9822-a996cb811071.PNG">
+<br/>
+<br/>
+<br/>
+<br/>     
 ### 2) nslookup [도메인명]
-입력한 도메인의 Ip주소를 출력한다.     
+입력한 도메인의 Ip주소를 출력한다.
+<br/>
+<br/>
 <img width="481" alt="nslookup" src="https://user-images.githubusercontent.com/62292136/81075816-cb901200-8f25-11ea-9fec-7644c1ed0b0d.PNG">
-     
+<br/>
+<br/>
+<br/>
+<br/>
 ### 3) nslookup -type=a [도메인명]
-입력한 도메인의 Ip주소를 Ipv4형식으로 출력한다. (기본값)     
-<img width="465" alt="nslookup_type_a" src="https://user-images.githubusercontent.com/62292136/81075820-ccc13f00-8f25-11ea-8169-1631ac720053.PNG">     
-     
-     
+입력한 도메인의 Ip주소를 Ipv4형식으로 출력한다. (기본값)
+<br/>
+<br/>
+<img width="465" alt="nslookup_type_a" src="https://user-images.githubusercontent.com/62292136/81075820-ccc13f00-8f25-11ea-8169-1631ac720053.PNG"> 
+<br/>
+<br/>
+<br/>
+<br/>     
 ### 4) nslookup -type=aaaa [도메인명]
-입력한 도메인의 Ip주소를 Ipv6형식으로 출력한다.     
+입력한 도메인의 Ip주소를 Ipv6형식으로 출력한다.
+<br/>
+<br/>
 <img width="627" alt="nslookup_type_aaaa" src="https://user-images.githubusercontent.com/62292136/81075821-ccc13f00-8f25-11ea-91fc-64e055ccc07e.PNG">     
-     
-     
+<br/>
+<br/>
+<br/>
+<br/>     
 ### 5) nslookup -type=MX [도메인명]
-입력한 도메인의 메일서버의 정보를 출력한다.     
-<img width="739" alt="nslookup_type_MX" src="https://user-images.githubusercontent.com/62292136/81075822-cd59d580-8f25-11ea-9aa3-d2e1da3996a5.PNG">    
-     
-     
+입력한 도메인의 메일서버의 정보를 출력한다.
+<br/>
+<br/>
+<img width="739" alt="nslookup_type_MX" src="https://user-images.githubusercontent.com/62292136/81075822-cd59d580-8f25-11ea-9aa3-d2e1da3996a5.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
 ### 6) nslookup -type=NS [도메인명]
-입력한 도메인의 네임서버의 정보를 출력한다.     
-<img width="655" alt="nslookup_type_NS" src="https://user-images.githubusercontent.com/62292136/81075824-cd59d580-8f25-11ea-9d14-a36c48054932.PNG">     
-     
-     
+입력한 도메인의 네임서버의 정보를 출력한다.
+<br/>
+<br/>
+<img width="655" alt="nslookup_type_NS" src="https://user-images.githubusercontent.com/62292136/81075824-cd59d580-8f25-11ea-9d14-a36c48054932.PNG">
+<br/>
+<br/>
+<br/>
+<br/>     
 ### 7) nslookup -type=SOA [도메인명]
-입력한 도메인의 마스터네임서버의 정보를 출력한다.     
-<img width="662" alt="nslookup_type_SOA" src="https://user-images.githubusercontent.com/62292136/81075825-cdf26c00-8f25-11ea-8a2b-e0737ccb0471.PNG">     
-     
-     
-     
+입력한 도메인의 마스터네임서버의 정보를 출력한다.
+<br/>
+<br/>
+<img width="662" alt="nslookup_type_SOA" src="https://user-images.githubusercontent.com/62292136/81075825-cdf26c00-8f25-11ea-8a2b-e0737ccb0471.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>     
 ## 2. ping
-상대 호스트와의 연결 가능 여부를 Ctrl+c가 입력될 때까지 출력한다.     
-     
+상대 호스트와의 연결 가능 여부를 Ctrl+c가 입력될 때까지 출력한다.
+<br/>
+<br/>
 ### 1) ping [ip주소] or [도메인명]
-입력한 ip주소나 도메인으로 ping을 보낸다.     
-<img width="818" alt="ping_1" src="https://user-images.githubusercontent.com/62292136/80867435-e9176e80-8cce-11ea-8502-de240a6d9cee.PNG">     
-     
-     
+입력한 ip주소나 도메인으로 ping을 보낸다.
+<br/>
+<br/>
+<img width="818" alt="ping_1" src="https://user-images.githubusercontent.com/62292136/80867435-e9176e80-8cce-11ea-8502-de240a6d9cee.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
 ### 2) ping -c [횟수] [ip주소] or [도메인명]
-입력한 ip주소나 도메인으로 ping을 입력한 횟수만큼 보낸다.     
-<img width="725" alt="ping_c" src="https://user-images.githubusercontent.com/62292136/80867436-e9b00500-8cce-11ea-9fee-b1034c932e47.PNG">     
-     
-<img width="706" alt="ping_c_2" src="https://user-images.githubusercontent.com/62292136/80867432-e74dab00-8cce-11ea-8545-876363aecc2b.PNG">     
-     
-     
+입력한 ip주소나 도메인으로 ping을 입력한 횟수만큼 보낸다.
+<br/>
+<br/>
+<img width="725" alt="ping_c" src="https://user-images.githubusercontent.com/62292136/80867436-e9b00500-8cce-11ea-9fee-b1034c932e47.PNG">
+<br/>
+<br/>
+<img width="706" alt="ping_c_2" src="https://user-images.githubusercontent.com/62292136/80867432-e74dab00-8cce-11ea-8545-876363aecc2b.PNG">
+<br/>
+<br/>
+<br/>
+<br/>     
 ### 3) ping -i [초] [ip주소] or [도메인명]
-입력한 ip주소나 도메인으로 ping을 입력한 초마다 새로 보낸다.     
-<img width="750" alt="ping_i" src="https://user-images.githubusercontent.com/62292136/80867433-e87ed800-8cce-11ea-89c8-48a13a45e4ee.PNG">      
-     
-<img width="645" alt="ping_i_2" src="https://user-images.githubusercontent.com/62292136/80867434-e9176e80-8cce-11ea-918c-a77645f5e3f2.PNG">     
+입력한 ip주소나 도메인으로 ping을 입력한 초마다 새로 보낸다.
+<br/>
+<br/>
+<img width="750" alt="ping_i" src="https://user-images.githubusercontent.com/62292136/80867433-e87ed800-8cce-11ea-89c8-48a13a45e4ee.PNG">
+<br/>
+<br/>     
+<img width="645" alt="ping_i_2" src="https://user-images.githubusercontent.com/62292136/80867434-e9176e80-8cce-11ea-918c-a77645f5e3f2.PNG">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
      
      
      
