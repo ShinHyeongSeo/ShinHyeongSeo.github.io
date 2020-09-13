@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "HGU OpenSourceSoftWare Class GitHub Blog"
+title                    : "HGU Shin HYeongseo's GitHub Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "21700404 신형서"
