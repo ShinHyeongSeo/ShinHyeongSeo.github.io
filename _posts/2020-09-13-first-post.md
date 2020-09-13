@@ -13,7 +13,7 @@ categories: HTML CSS Web dothome Practical_Project1
 <br>
 <br>
 
-### 1. <pre> <html> ###
+### 1. <pre> <html> </pre> ###
 ### 2. head ###
 ### 3. title ###
 ### 4. body ###
