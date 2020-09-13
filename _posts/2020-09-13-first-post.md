@@ -20,7 +20,7 @@ html 태그는 웹페이지를 코드로 표현하기 위해서 적는 태그이
 html 문서의 시작과 끝은 <html> </html>로 나타낸다.<br>
 <br>
 <br>
-* <!DOCTYPE html>은 현재의 문서를 HTML문서로 지정하는 것을 의미한다.
+<!DOCTYPE html>은 현재의 문서를 HTML문서로 지정하는 것을 의미한다.
 <br>
 <br>
 <img width="482" alt="html태그" src="https://user-images.githubusercontent.com/62292136/93014131-562a0180-f5e9-11ea-8190-87ab8c3e5df8.PNG">
