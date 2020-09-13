@@ -13,4 +13,8 @@ categories: HTML CSS Web dothome Practical_Project1
 <br>
 <br>
 
+### 1. html ###
+### 2. head ###
+### 3. <title> ###
+
 ## 2. CSS 태그 정리 ##
