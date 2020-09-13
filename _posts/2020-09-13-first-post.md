@@ -198,9 +198,13 @@ url자리에 #을 넣으면 실제 링크가 아니라 링크역할만 하는 �
 style 적용 전
 <br>
 <br>
+<img width="960" alt="nostyle_캡처" src="https://user-images.githubusercontent.com/62292136/93017582-d4e06800-f604-11ea-9878-2c19a336a3c1.PNG">
+<br>
+<br>
 stlye 적용 후
 <br>
 <br>
+<img width="960" alt="style1_캡처" src="https://user-images.githubusercontent.com/62292136/93018184-d744c100-f608-11ea-8000-7c4f4b1ef4a2.PNG">
 <br>
 <br>
 <br>
