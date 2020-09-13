@@ -8,58 +8,72 @@ categories: HTML CSS Web dothome Practical_Project1
 
 
 
-## 1. HTML 태그 정리
+<h2> 1. HTML 태그 정리 </h2>
 <br>
 <br>
 <br>
-### 4. <body>
-<br/>
-<br/>
-<br/>
 
-### 5. <div>
-<br/>
-<br/>
-<br/>
+<h3> 1. <html> </h3>
+<br>
+<br>
+<br>
 
-### 6. <h>
-<br/>
-<br/>
-<br/>
+<h3> 2. <head> </h3>
+<br>
+<br>
+<br>
 
-### 7. <p>
-<br/>
-<br/>
-<br/>
+<h3> 3. <title> </h3>
+<br>
+<br>
+<br>
 
-### 8. <ul>
-<br/>
-<br/>
-<br/>
+<h3> 4. <body> </h3>
+<br>
+<br>
+<br>
 
-### 9. <ol>
-<br/>
-<br/>
-<br/>
+<h3> 5. <div> </h3>
+<br>
+<br>
+<br>
 
-### 10. <li>
-<br/>
-<br/>
-<br/>
+<h3> 6. <h> </h3>
+<br>
+<br>
+<br>
 
-### 11. <a>
-<br/>
-<br/>
-<br/>
+<h3> 7. <p> </h3>
+<br>
+<br>
+<br>
 
-### 12. <img>
-<br/>
-<br/>
-<br/>
+<h3> 8. <ul> </h3>
+<br>
+<br>
+<br>
 
-### 13. <style>
-<br/>
-<br/>
-<br/>
+<h3> 9. <ol> </h3>
+<br>
+<br>
+<br>
 
+<h3> 10. <li> </h3>
+<br>
+<br>
+<br>
 
+<h3> 11. <a> </h3>
+<br>
+<br>
+<br>
+
+<h3> 12. <img> </h3>
+<br>
+<br>
+<br>
+
+<h3> 13. <style> </h3>
+<br>
+<br>
+<br>
