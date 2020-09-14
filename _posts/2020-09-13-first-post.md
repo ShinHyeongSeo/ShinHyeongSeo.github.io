@@ -218,9 +218,15 @@ stlye 적용 후
 해당 컨텐츠의 글꼴을 지정한다.<br>
 <br>
 <br>
+<img width="960" alt="css_font" src="https://user-images.githubusercontent.com/62292136/93083713-fa857400-f6cd-11ea-9aa0-2f0bde323cc2.PNG">
+<br>
+<br>
 <br>
 ### 2. color ###
 해당 컨텐츠의 색상을 지정한다.<br>
+<br>
+<br>
+<img width="960" alt="css_color" src="https://user-images.githubusercontent.com/62292136/93083747-05d89f80-f6ce-11ea-9d01-e2c088f4b9ce.PNG">
 <br>
 <br>
 <br>
@@ -228,9 +234,15 @@ stlye 적용 후
 해당 컨텐츠의 배경색을 지정한다.<br>
 <br>
 <br>
+<img width="960" alt="css_backgroundcolor" src="https://user-images.githubusercontent.com/62292136/93083767-0e30da80-f6ce-11ea-8c22-223f8913f895.PNG">
+<br>
+<br>
 <br>
 ### 4. margin ###
 해당 컨텐츠의 여백(외부)을 지정한다.<br>
+<br>
+<br>
+<img width="960" alt="css_margin" src="https://user-images.githubusercontent.com/62292136/93083796-19840600-f6ce-11ea-9b9e-c7e56fd7aa74.PNG">
 <br>
 <br>
 <br>
@@ -238,9 +250,15 @@ stlye 적용 후
 해당 컨텐츠의 여백(태부)을 지정한다.<br>
 <br>
 <br>
+<img width="960" alt="css_padding" src="https://user-images.githubusercontent.com/62292136/93083828-243e9b00-f6ce-11ea-9a58-b3faa50b5660.PNG">
+<br>
+<br>
 <br>
 ### 6. width ###
 해당 컨텐츠의 너비를 지정한다.<br>
+<br>
+<br>
+<img width="960" alt="css_width" src="https://user-images.githubusercontent.com/62292136/93083850-2c96d600-f6ce-11ea-9a6e-2514153eabc0.PNG">
 <br>
 <br>
 <br>
@@ -248,9 +266,15 @@ stlye 적용 후
 해당 컨텐츠의 높이를 지정한다.<br>
 <br>
 <br>
+<img width="955" alt="css_height" src="https://user-images.githubusercontent.com/62292136/93083883-38829800-f6ce-11ea-8eb6-e32cbe55a1e8.PNG">
+<br>
+<br>
 <br>
 ### 9. radius ###
 테두리를 둥글게 할 때 사용한다.<br>
+<br>
+<br>
+<img width="960" alt="css_radius" src="https://user-images.githubusercontent.com/62292136/93083918-4801e100-f6ce-11ea-9055-dbf66067eeca.PNG">
 <br>
 <br>
 <br>
@@ -258,16 +282,36 @@ stlye 적용 후
 해당 컨텐츠의 위치를 결정할 때 사용한다.<br>
 <br>
 <br>
+<img width="960" alt="css_position1" src="https://user-images.githubusercontent.com/62292136/93083940-505a1c00-f6ce-11ea-8fd4-f8b0181db9b9.PNG">
 <br>
-
+<br>
+<br>
+<img width="960" alt="css_position2" src="https://user-images.githubusercontent.com/62292136/93083947-52bc7600-f6ce-11ea-98ae-a658fda03669.PNG">
+<br>
+<br>
+<br>
 ### 11. float ###
 해당 컨텐츠의 정렬 위치를 결정할 때 사용한다.<br>
+<br>
+<br>
+<img width="960" alt="css_float1" src="https://user-images.githubusercontent.com/62292136/93083988-623bbf00-f6ce-11ea-8db9-50904155e6ad.PNG">
+<br>
+<br>
+<br>
+<img width="959" alt="css_float2" src="https://user-images.githubusercontent.com/62292136/93083994-636cec00-f6ce-11ea-8d2d-1aaf507e742d.PNG">
 <br>
 <br>
 <br>
 
 ### 12. text ###
 해당 텍스트의 스타일을 지정할 때 사용한다.<br>
+<br>
+<br>
+<img width="960" alt="css_text-align" src="https://user-images.githubusercontent.com/62292136/93084051-74b5f880-f6ce-11ea-9008-dca85add58bb.PNG">
+<br>
+<br>
+<br>
+<img width="960" alt="css_textdecoration" src="https://user-images.githubusercontent.com/62292136/93084056-75e72580-f6ce-11ea-8ae3-388063c99019.PNG">
 <br>
 <br>
 <br>
@@ -282,22 +326,31 @@ stlye 적용 후
 해당 컨텐츠의 내용이 지정된 크기를 넘었을때 어떻게 처리할지 결정할 때 사용한다.<br>
 <br>
 <br>
+<img width="960" alt="css_overflow-hidden" src="https://user-images.githubusercontent.com/62292136/93084109-87c8c880-f6ce-11ea-816c-d91bbae35af9.PNG">
+<br>
+<br>
+<br>
+<img width="960" alt="css_overflow-scroll" src="https://user-images.githubusercontent.com/62292136/93084115-88f9f580-f6ce-11ea-9b82-f319d102763f.PNG">
+<br>
+<br>
+<br>
+<img width="960" alt="css_overflow-visible" src="https://user-images.githubusercontent.com/62292136/93084117-89928c00-f6ce-11ea-87f3-31b7c23925a8.PNG">
+<br>
+<br>
 <br>
 
 ### 15. border ###
 해당 컨텐츠의 테두리에 스타일을 지정할 때 사용한다.<br>
 <br>
 <br>
-<br>
-
-### 16. a:hover ###
-해당 컨텐츠에 마우스 포인터가 포커싱 됐을 때, 색상을 지정할 때 사용한다.<br>
-<br>
+<img width="960" alt="css_border" src="https://user-images.githubusercontent.com/62292136/93084157-9911d500-f6ce-11ea-9f23-f87c1034af61.PNG">
 <br>
 <br>
 
-### 17. list ###
-목록 관련 태그들의 스타일을 지정할 때 사용한다.<br>
+<br>
+<br>
+<br>
+
 <br>
 <br>
 <br>
