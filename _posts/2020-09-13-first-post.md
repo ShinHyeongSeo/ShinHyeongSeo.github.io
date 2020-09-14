@@ -320,6 +320,7 @@ stlye 적용 후
 마우스 커서의 모양을 지정할 때 사용한다.<br>
 <br>
 <br>
+<a href = "https://www.w3schools.com/css/tryit.asp?filename=trycss_cursor"> 클릭해서 포인터 종류 확인하기! </a>
 <br>
 
 ### 14. overflow ###
