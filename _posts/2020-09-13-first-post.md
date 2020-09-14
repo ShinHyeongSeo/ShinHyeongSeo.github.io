@@ -74,7 +74,14 @@ html 문서의 시작과 끝은  &lt;html&gt; &lt;/html&gt;로 나타낸다.<br>
 주로 style을 div로 묶인 것들에 한번에 적용한다.<br> 
 <br>
 <br>
-<a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div"> 클릭해서 div 적용된 모습 확인하기 !! </a>
+<img width="797" alt="div_1" src="https://user-images.githubusercontent.com/62292136/93085645-d37c7180-f6d0-11ea-8ffa-1dac7da14891.PNG">
+<img width="800" alt="div_2" src="https://user-images.githubusercontent.com/62292136/93085649-d4ad9e80-f6d0-11ea-8b91-35c6eb2fd970.PNG">
+<br>
+<br>
+실제 웹페이지
+<br>
+<br>
+<img width="960" alt="nostyle_캡처" src="https://user-images.githubusercontent.com/62292136/93085683-e5f6ab00-f6d0-11ea-922b-b4c28d2be7ec.PNG">
 <br>
 <br>
 <br>
