@@ -71,6 +71,10 @@ html 문서의 시작과 끝은  &lt;html&gt; &lt;/html&gt;로 나타낸다.<br>
 <br>
 ### 5. &lt;div&gt; ###
 문서의 내용들을 어떤 기준으로 묶을 때 사용한다.<br>
+주로 style을 div로 묶인 것들에 한번에 적용한다.<br> 
+<br>
+<br>
+<a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_div"> 클릭해서 div 적용된 모습 확인하기 !! </a>
 <br>
 <br>
 <br>
